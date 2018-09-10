@@ -102,28 +102,31 @@ Contains mostly my fictional works inlcuding an on-going Webnovel \(Digits), a f
 
 ## Hobbies
 
-- Reading
+- **Reading**
   - Non-fiction
   - Sci-fi and fantasy
   - Pyschology
     - Criminal pyschology
     - Abnormal behavior & disorders
     
-- Poetry
+- **Poetry**
   - Freeverse
-  - Ocassionally write at\: [Introvert atheist](https://introvertatheist.wordpress.com)
+  - Ocassionally write at\: [_Introvert atheist_](https://introvertatheist.wordpress.com)
   
-- Chess \(_ELO rating_\: **700** as of May 2018)
+- **Chess**  
+_ELO rating_: **700** as of May 2018
   
   
   
 ## Languages \(known and learning)
 
-- _English_ \(Advanced)
-- _Marathi_ \(Advanvced)
-- _Hindi_ \(Advanced)
-- _French_ \(Elementary)
-- _Welsh_ \(Beginner)
-- _Toki pona_ \(Conlang) \(Elementary)
+- **English** \(Advanced)
+- **Marathi** \(Advanvced)
+- **Hindi** \(Advanced)
+- **French** \(Elementary)
+- **Welsh** \(Beginner)
+- **Toki Pona** \(Conlang) \(Elementary)
+- **Esperanto** \(Conlang) \(Elementary)
+
 
 
