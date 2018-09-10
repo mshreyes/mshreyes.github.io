@@ -1,5 +1,5 @@
 > **Shreyes R. Madgaonkar**  
-> Currently(2018-19) in Third year of _B. Sc Physics_ in Fergusson college \(autonomous), Pune. 
+> Currently \(2018-19) in Third year of _B.Sc Physics_ in Fergusson college \(autonomous), Pune. 
 
 ## Education
 
