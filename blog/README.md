@@ -1,2 +1,2 @@
-# [Mathematics](blog/Mathematics/README.md/)
-Selected articles on varous mathematical topics.
+# [Mathematics](blog/Mathematics/)
+Selected articles on various mathematical topics.
