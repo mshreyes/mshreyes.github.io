@@ -1,2 +1,2 @@
-# [Mathematics](blog/Mathematics/)
+# [Mathematics](Mathematics/)
 Selected articles on various mathematical topics.
