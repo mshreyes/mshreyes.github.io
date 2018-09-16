@@ -1,4 +1,4 @@
 
 ## Blogs on Mathematics:
 
-[Fourier Series](docs/Fourier/FourierSeries.html)
+[Fourier Series](Fourier/FourierSeries.html)
