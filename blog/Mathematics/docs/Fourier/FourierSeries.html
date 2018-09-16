@@ -1,0 +1,204 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  Fourier
+ </title>
+ <link href="HTMLFiles/Fourier.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class='Text' style='font-weight: bold;color: #FF0000;text-align: center;'>
+ <span class="TitleInline">An Introduction to the Fourier Series<br /><br /></span>
+</p>
+
+
+
+<p class="Text">
+ <span style='font-style: italic;'>Preliminary concepts :</span>
+</p>
+
+
+
+<p class="Item">
+ Even and Odd functions
+</p>
+
+
+
+<p class="Item">
+ Periodic Functions
+</p>
+
+
+
+<p class='Text' style='text-align: center;'>
+ <br /><br /><span class='SubsubtitleInline' style='font-weight: bold;text-decoration: underline;color: #800080;'>Even Functions:</span><span style='font-weight: bold;'><br /></span><br /><br />A univariate function f(x) is said to be even provided that <br /><br /><span class='InlineFormulaInline' style='font-weight: bold;'>f(x) = f(-x)</span> <br /><br />Geometrically, such functions are symmetric about the y - axis.<br /><br />
+</p>
+
+
+
+<p class="Text">
+ <br /><span style='text-decoration: underline;'>Example</span> : Cosine function
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Fourier_1.png" alt="Fourier_1.png" width="190" height="35" style="vertical-align:middle" />
+</p>
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Fourier_2.gif" alt="Fourier_2.gif" width="360" height="223" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <br /><span style='font-weight: bold;'>Ref:</span> http://mathworld.wolfram.com/EvenFunction.html
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Fourier_3.png" alt="Fourier_3.png" width="12" height="54" style="vertical-align:middle" />
+</p>
+
+<p class='Input' style='text-align: center;'>
+ <img src="HTMLFiles/Fourier_4.png" alt="Fourier_4.png" width="389" height="198" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <br /><span style='text-decoration: underline;'>Example</span> : Sine function
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Fourier_5.png" alt="Fourier_5.png" width="190" height="35" style="vertical-align:middle" />
+</p>
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Fourier_6.gif" alt="Fourier_6.gif" width="360" height="223" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <br /><span style='font-weight: bold;'>Ref:</span> http://mathworld.wolfram.com/OddFunction.html
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Fourier_7.png" alt="Fourier_7.png" width="12" height="54" style="vertical-align:middle" />
+</p>
+
+<p class='Text' style='text-align: center;'>
+ <span class='SubsubtitleInline' style='font-weight: bold;text-decoration: underline;color: #800080;'>Periodic Function</span><span style='font-weight: bold;'><br /></span><br />A function f(x) is said to be periodic if there exists a number <span style='font-style: italic;'>T &gt; 0</span>, such that,<br /><br /><span style='font-weight: bold;'>f(x + T) = f(x)&nbsp;&nbsp;</span><br /><br />for all x.<br />The smallest such T is called the <span style='font-style: italic;'>period</span> of f(x).<br />
+</p>
+
+
+
+<p class="Text">
+ <span style='font-style: italic;text-decoration: underline;'>Examples</span> : <span style='font-style: italic;font-weight: bold;'>Sine</span> function and <span style='font-style: italic;font-weight: bold;'>Cosine</span> function with least period <span style='font-style: italic;'>2&pi;.<br /><br /></span><span style='font-style: italic;text-decoration: underline;'>Note</span><span style='font-style: italic;'>: </span>The constant function f(x) = a is periodic with any period T for all nonzero real numbers <span style='font-weight: bold;'>R</span>, so there is no concept analogous to the least period for constant functions. <br />
+</p>
+
+
+
+<p class="Text">
+ <span style='font-weight: bold;text-decoration: underline;'>Ref</span> : http://mathworld.wolfram.com/PeriodicFunction.html<br /><br /><br />
+</p>
+
+
+
+<p class='Text' style='text-align: center;'>
+ <br /><span class='SubsubtitleInline' style='font-weight: bold;text-decoration: underline;color: #800080;'>Fourier Series<br /></span><br />Let p &gt; 0 be a fixed number and f(x) be a periodic function with period <span style='font-weight: bold;'>2p</span> be a periodic function with period 2p defined on<span style='font-style: italic;'> (-p, p)</span>. Then the Fourier series for f(x) is,
+</p>
+
+
+
+<p class='DisplayFormula' style='font-weight: bold;text-align: center;'>
+ <img src="HTMLFiles/Fourier_8.png" alt="Fourier_8.png" width="351" height="71" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ where,
+</p>
+
+
+
+<p class='DisplayFormula' style='font-weight: bold;'>
+ <img src="HTMLFiles/Fourier_9.png" alt="Fourier_9.png" width="217" height="249" style="vertical-align:middle" />
+</p>
+
+<p class='Text' style='text-align: center;'>
+ <br /><span class='SubsubtitleInline' style='font-weight: bold;text-decoration: underline;color: #800080;'>Dirichlet's conditions <br /><br /></span>Any periodic waveform of period p = 2L can be expressed in a Fourier series provided that:<br />
+</p>
+
+
+
+<p class="Item">
+  it has a finite number of discontinuities within the period 2L
+</p>
+
+
+
+<p class="Item">
+ it has a finite average value in the period 2L
+</p>
+
+
+
+<p class="Item">
+ it has a finite number of minima and maxima<br />
+</p>
+
+
+
+<p class="Text">
+ <br /><span style='font-style: italic;text-decoration: underline;'>Ref</span> : intmath.com
+</p>
+
+
+
+<p class="Text">
+ <span style='font-style: italic;text-decoration: underline;'>Note</span> : Typically, f(x) will be piecewise defined.<br /><br /><span style='font-style: italic;text-decoration: underline;'>Advantage</span>: The function f(x) can have discontinuities, whereas for defining Taylor series, f(x) must be continuous.
+</p>
+
+
+
+<p class="Input">
+ <img src="HTMLFiles/Fourier_10.png" alt="Fourier_10.png" width="12" height="54" style="vertical-align:middle" />
+</p>
+
+<p class="Section">
+ <span class='TextInline' style='font-size: 18px;text-decoration: underline;'>Examples </span>
+</p>
+
+
+
+<p class="Graphics">
+ <img src="HTMLFiles/Fourier_11.gif" alt="Fourier_11.gif" width="474" height="293" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ <span style='font-weight: bold;text-decoration: underline;'><br />Ref</span> : http://mathworld.wolfram.com/FourierSeries.html<br /><br />
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>
