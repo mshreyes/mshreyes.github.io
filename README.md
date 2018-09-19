@@ -2,7 +2,7 @@
 
 [About Me](about/README.md)
 
-[Articles](articles/README.md)
+[Articles](Articles/README.md)
 
 
 #### This site is under construction
