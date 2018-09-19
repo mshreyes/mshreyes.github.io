@@ -29,6 +29,8 @@ under Inspire scheme.
 
 ## Programming Languages and computer skills 
 
+
+
 ### General
 
 |Language             | Level                 | Can use/work with          |
@@ -39,12 +41,16 @@ under Inspire scheme.
 |  Octave             |Intermediate           |Matrix manipulation      |
 
 
+
+
 ### Web development
 
 |Language             | Level                 | Can use/work with          |
 |---------------------|-----------------------|----------------------------|
 |  HTML and CSS       |Elementary             |Creating simple web pages   |
 |  Javascript         |Elementary             | Elementary stuff           |
+
+
 
 
 ### Typesetting
@@ -59,9 +65,10 @@ under Inspire scheme.
 
 ## Writing
 
-_My Blog_ \: [**My Spacetime - Ingenious Universe**](https://ingeniousuniverse.wordpress.com/)  
+_My Blog_ - [**My Spacetime - Ingenious Universe**](https://ingeniousuniverse.wordpress.com/)  
 
 Contains mostly my fictional works inlcuding an on-going Webnovel \(Digits), a few short stories and some fictional letters.
+
 
 
 ## Fields of interest
@@ -84,7 +91,7 @@ Contains mostly my fictional works inlcuding an on-going Webnovel \(Digits), a f
     
   - _Biophysics_
     - Entropic theory of evolution
-    - bio\-mechanics
+    - biomechanics
 
 
 - **Linguistics**
@@ -111,7 +118,7 @@ Contains mostly my fictional works inlcuding an on-going Webnovel \(Digits), a f
     
 - **Poetry**
   - Freeverse
-  - Ocassionally write at\: [_Introvert atheist_](https://introvertatheist.wordpress.com)
+  - Ocassionally write at - [_Introvert atheist_](https://introvertatheist.wordpress.com)
   
 - **Chess**  
 _ELO rating_: **700** as of May 2018
