@@ -1,6 +1,7 @@
 # My Spacetime
 
-My curriculum vitae (C.V.) can be found [here](CV/README.md)
+[About Me](about/README.md)
+
 
 #### This site is under construction
 
