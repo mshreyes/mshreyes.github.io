@@ -4,4 +4,4 @@
 time, in order to utilize solar energy on a larger scale. In order to simulate this
 idea, Wolfram Language (Mathematica) was used.
 
-Read [here](Project\Dyson ring.pdf)
+Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)**
