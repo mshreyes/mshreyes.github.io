@@ -21,6 +21,7 @@
     - [Part 3](https://weguysthought.com/2020/07/31/the-case-of-shastris-missing-will-3/)
 
 3. [Planet 221](https://weguysthought.com/2020/06/10/planet-221/)
+
 4. [A Giant Appears](https://weguysthought.com/2019/09/20/agiantappears/)
 
 ***
