@@ -26,6 +26,8 @@ I'm an university student and I like to try new stuff. I created this site to ke
 
 - **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
+- **[Poems](Poems/README.md)**: Some poems that I wrote a while ago. I tried. Mostly freeform.
+
 ***
 
 ***
