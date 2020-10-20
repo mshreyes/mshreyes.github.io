@@ -6,8 +6,9 @@
 
 **About me:**
 *Hello there, stranger!*
+
 I'm Shreyes.
-I'm an university student and I like to try new stuff. I created this site to keep track of my projects and writings. Feel free to explore. Hopefully you'll find something of interest.
+I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
 
 ***
 
@@ -22,6 +23,8 @@ I'm an university student and I like to try new stuff. I created this site to ke
 - **[Computational Physics](https://github.com/mshreyes/Computational-Physics)**: Notes and implementation of computational methods (in Fortran 90/95).
 
 - **[Gallery](Gallery/README.md)**: A collection of some interesting graphs.
+
+- **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
 ***
 
