@@ -1,4 +1,6 @@
-### Project list:
+## Projects
+
+***
 
 1. **Topic**: Feasibility of a Dyson ring
 
@@ -7,7 +9,11 @@
 
     Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)**
 
-### Mini-Projects:
+***
+
+***
+
+#### Mini-Projects:
 1. **Topic**: Analysis of Lorenz Equations
 
     - Stability analysis of fixed points for Lorenz equations
@@ -16,3 +22,5 @@
     Read **[here](https://github.com/mshreyes/Computational-Physics/blob/master/LSA/Lorenz_analysis.pdf)**
 
     Source files: **[link](https://github.com/mshreyes/Computational-Physics/tree/master/LSA)**
+
+***
