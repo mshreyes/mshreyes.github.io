@@ -7,7 +7,7 @@ But transitory
 
 Preserve light\
 For it is to get dark\
-Hollow souls \
+Hollow souls\
 Be feeding upon pitiful
 
 Preserve anger\
