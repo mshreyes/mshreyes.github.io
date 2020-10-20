@@ -20,7 +20,6 @@
     - Numerical solutions 
 
     Read **[here](https://github.com/mshreyes/Computational-Physics/blob/master/LSA/Lorenz_analysis.pdf)**
-
     Source files: **[link](https://github.com/mshreyes/Computational-Physics/tree/master/LSA)**
 
 ***
