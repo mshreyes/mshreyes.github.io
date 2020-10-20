@@ -6,4 +6,4 @@ Quotes, unforgettable lines, intriguing passages and advice from books that I've
 
 ***
 
-- *Turtle's All The Way Down* by John Green 
+- *Turtle's All The Way Down* by John Green: [Read Notes](Book1.md)
