@@ -1,12 +1,16 @@
 # Reading Stats
 
-## Currently reading:
+## Currently reading: 
+
+- **In Search of Memory** by Eric Kandel
 
 - **Dandelion Wine** by Ray Bradbury
 
 - **DNA Demystified** by ALan McHughen
 
 - **Hiroshima** by John Hersey
+
+- **A Geek in Japan** by Hector Garcia
 
 ## Read:
 
