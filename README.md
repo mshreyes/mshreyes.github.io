@@ -1,10 +1,5 @@
-# My SpaceTime
 
-***
-
-***
-
-**About me:**
+**Intro:**
 *Hello there, stranger!*
 
 I'm Shreyes.
