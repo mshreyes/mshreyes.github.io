@@ -1,8 +1,11 @@
 
 **Introduction:** 
 
-Hello there! \
+Hello there! 
+
 I'm Shreyes. I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
+
+I write at **[We Guys Thought](https://weguysthought.com/)**.
 
 ***
 
@@ -12,19 +15,18 @@ I'm Shreyes. I'm an university student and I like to try new stuff. I created th
     - Feasibility of Dyson Rings
     - Analysis of Lorenz Equations
 
+- **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
+
+- **[Lesson Notes](Lessons/lessons.md)**: Contains notes and mini-lessons for sciences and languages (and more soon). (WIP)
+
 - **[Fortran](https://github.com/mshreyes/Fortran_Programs)**: A collection of Fortran 90/95 programs.
 
 - **[Computational Physics](https://github.com/mshreyes/Computational-Physics)**: Notes and implementation of computational methods (in Fortran 90/95).
 
 - **[Gallery](Gallery/README.md)**: A collection of some interesting graphs.
 
-- **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
+- **[Journal](journal.md)**: My bullet journal.
 
-- **[Logs](Logs/logs.md)**: Track record of my learning journey. Expect fun facts and TIL-like lessons.
-
-***
-
-For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
 
 ***
 
