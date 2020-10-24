@@ -20,6 +20,7 @@ I'm Shreyes. I'm an university student and I like to try new stuff. I created th
 
 - **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
+- **[Logs](Logs/logs.md)**: Track record of my learning journey. Expect fun facts and TIL-like lessons.
 
 ***
 

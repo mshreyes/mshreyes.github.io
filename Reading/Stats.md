@@ -12,6 +12,8 @@
 
 - **A Geek in Japan** by Hector Garcia
 
+- **A Gentleman in Moscow** by Amor Towles
+
 ## Read:
 
 ### 2020:
@@ -71,7 +73,7 @@
 - **Lessons in Stoicism: What Ancient Philosophers Teach Us about How to Live** by John Sellars
 
 
-#### 2019:
+### 2019:
 
 - **When Nietzsche Wept** by Irvin D. Yalom
 
@@ -133,7 +135,7 @@
 
 - **Happiness (Vol. 1-10)** by Shūzō Oshimi 
 
-#### 2018:
+### 2018:
 
 - **Between the World and Me** by Ta-Nehisi Coates
 
