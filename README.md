@@ -1,9 +1,8 @@
 
-**Introduction:** \
-*Hello there!*
+**Introduction:** 
 
-I'm Shreyes.
-I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
+Hello there! \
+I'm Shreyes. I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
 
 ***
 
@@ -21,7 +20,6 @@ I'm an university student and I like to try new stuff. I created this site to ke
 
 - **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
-***
 
 ***
 
@@ -29,4 +27,4 @@ For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.
 
 ***
 
-Logo by Viscious Speed under CC0 PDD
+Logo by *Viscious Speed* under CC0 PDD

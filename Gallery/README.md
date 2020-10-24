@@ -11,3 +11,5 @@ A collection of some interesting graphs/plots.
 
 2. Random walk 2D ([code](https://github.com/mshreyes/Fortran_Programs/blob/master/Random_walk/RW2D.f95)):
 ![Random walk 2D](rdwalk.png)
+
+***

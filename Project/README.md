@@ -15,8 +15,6 @@ Projects that I've worked on (including both major and mini projects)
 
 ***
 
-***
-
 #### Mini-Projects:
 1. **Topic**: Analysis of Lorenz Equations
 
