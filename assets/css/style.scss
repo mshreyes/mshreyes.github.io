@@ -12,7 +12,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color:rgb(82, 45, 182);
+    color:rgb(59, 45, 182);
     margin:0 0 20px;
   }
 
@@ -42,7 +42,7 @@
   }
   
   a:hover, a:focus {
-    color: rgb(138, 197, 60);
+    color:#db8624;
     font-weight: bold;
   }
   
@@ -54,7 +54,7 @@
   }
   
   a:hover small {
-    color:#267CB9;
+    color:#db8624;
   }
   
 
@@ -72,7 +72,7 @@
   
   code, pre {
     font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-    color:#333;
+    color:rgb(238, 228, 228);
   }
   
   pre {
@@ -95,12 +95,12 @@
   }
   
   dt {
-    color:#444;
+    color:rgb(243, 234, 234);
     font-weight:700;
   }
   
   th {
-    color:#444;
+    color:rgb(238, 230, 230);
   }
   
   img {
