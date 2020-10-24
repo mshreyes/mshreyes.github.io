@@ -8,7 +8,9 @@ Projects that I've worked on (including both major and mini projects)
 
     **Abstract**: Solar power being an important energy source for life on earth, is least exploited. This project will attempt at studying and predicting whether it is possible to substantiate the idea of Dyson ring, which has been around for a long time, in order to utilize solar energy on a larger scale. In order to simulate this
     idea, Wolfram Language (Mathematica) was used.\
-    Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)**
+    Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)** \
+    Source code: **[link](Dyson_ring.nb)**
+    **
 
 ***
 
