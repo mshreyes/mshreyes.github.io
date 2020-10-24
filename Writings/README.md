@@ -1,7 +1,7 @@
 # Writings
 
 ***
-A few articles, fiction and poems written by me.
+A few articles, fiction and poems written by me. For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
 
 ***
 
@@ -36,4 +36,3 @@ A few articles, fiction and poems written by me.
 All the poems (good or bad) can be found **[here](Poems/README.md)**
 
 ***
-For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
