@@ -1,2 +1,0 @@
-**Biophysics**: 
-- Even though a plant don't have a nervouse system like we humans do, it does use action potentials for communication. But the ions responsible for this action potential are different than in humans. (Ions involved in generation of action potential in humans are K+, Na+, Cl- and Ca2+). Watch [this talk](https://youtu.be/pvBlSFVmoaw) for more info.
