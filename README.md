@@ -26,3 +26,7 @@ I'm an university student and I like to try new stuff. I created this site to ke
 ***
 
 For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
+
+***
+
+Logo by Delapouite under CC BY 3.0
