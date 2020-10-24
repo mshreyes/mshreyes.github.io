@@ -1,7 +1,9 @@
 ## Projects
 
 ***
+
 Projects that I've worked on (including both major and mini projects)
+
 ***
 
 1. **Topic**: Feasibility of a Dyson ring
