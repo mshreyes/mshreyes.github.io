@@ -10,6 +10,11 @@ Quotes, unforgettable lines, intriguing passages and advice from books that I've
 
 - *No Country For Old Men* by Cormac McCarthy: [Read notes](Book2.md)
 
+- *Steppenwolf* by Hermann Hesse: [Read notes](Book3.md)
+
 ***
+
+**Reading stats including books read and currently reading: [Reading Stats](Stats.md)**
+
 
 *All rights of the content posted in the notes are with the respective author.*
