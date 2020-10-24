@@ -10,7 +10,6 @@ Projects that I've worked on (including both major and mini projects)
     idea, Wolfram Language (Mathematica) was used.\
     Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)** \
     Source code: **[link](Dyson_ring.nb)**
-    **
 
 ***
 
