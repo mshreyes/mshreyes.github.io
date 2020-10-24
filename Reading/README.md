@@ -6,6 +6,8 @@ Quotes, unforgettable lines, intriguing passages and advice from books that I've
 
 ***
 
+- *A Gentleman in Moscow* by Amor Towles: [Read notes](Book4.md)
+
 - *Turtle's All The Way Down* by John Green: [Read notes](Book1.md)
 
 - *No Country For Old Men* by Cormac McCarthy: [Read notes](Book2.md)
