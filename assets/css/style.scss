@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-body {
+  body {
     background-color: rgb(43, 39, 39);
     padding:50px;
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -11,7 +11,29 @@ body {
     font-weight:400;
   }
 
-h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6 {
     color:rgb(74, 28, 182);
     margin:0 0 20px;
   }
+
+  a {
+    color:#267CB9;
+    text-decoration:none;
+  }
+  
+  a:hover, a:focus {
+    color: rgb(233, 222, 222);
+    font-weight: bold;
+  }
+  
+  a small {
+    font-size:11px;
+    color:#267CB9;
+    margin-top:-0.3em;
+    display:block;
+  }
+  
+  a:hover small {
+    color:#267CB9;
+  }
+  
