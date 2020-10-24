@@ -29,4 +29,4 @@ For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.
 
 ***
 
-Logo by Delapouite under CC BY 3.0
+Logo by Viscious Speed under CC0 PDD
