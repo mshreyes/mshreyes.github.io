@@ -1,6 +1,6 @@
 
-**Intro:**
-*Hello there, stranger!*
+**Introduction:** \
+*Hello there!*
 
 I'm Shreyes.
 I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
