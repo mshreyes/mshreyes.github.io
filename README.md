@@ -12,7 +12,7 @@ I'm an university student and I like to try new stuff. I created this site to ke
 
 ***
 
-- **[Articles](Articles/README.md)**: A few articles (and fiction written by me)
+- **[Writings](Writings/README.md)**: Articles, fiction and poetry.
 
 - **[Projects](Project/README.md)**: Projects that I've worked on (including both major and mini projects)
     - Feasibility of Dyson Rings
@@ -25,8 +25,6 @@ I'm an university student and I like to try new stuff. I created this site to ke
 - **[Gallery](Gallery/README.md)**: A collection of some interesting graphs.
 
 - **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
-
-- **[Poems](Poems/README.md)**: Some poems that I wrote a while ago. I tried. Mostly freeform.
 
 ***
 

@@ -1,7 +1,7 @@
-# Articles
+# Writings
 
 ***
-A few articles (and fiction written by me)
+A few articles, fiction and poems written by me.
 
 ***
 
@@ -26,6 +26,14 @@ A few articles (and fiction written by me)
 3. [Planet 221](https://weguysthought.com/2020/06/10/planet-221/)
 
 4. [A Giant Appears](https://weguysthought.com/2019/09/20/agiantappears/)
+
+5. [A Letter From A Father](https://ingeniousuniverse.wordpress.com/2017/10/17/a-letter-from-a-father)
+
+***
+
+### Poems
+
+All the poems (good or bad) can be found **[here](Poems/README.md)**
 
 ***
 For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
