@@ -4,7 +4,7 @@
 
 ### Lesson index:
 
-1. Resting membrane potential & equilibrium potential (WIP)
+1. Equilibrium potential & Resting membrane potential: [Link](biophysics/L01.md)
 
 2. Action potential (WIP)
 
