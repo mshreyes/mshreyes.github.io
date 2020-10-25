@@ -151,6 +151,8 @@
 
 - **Salty Studio** by Omyo
 
+- **My Cousin Rachel** by Daphne du Maurier
+
 - **Mortality** by Christopher Hitchens
 
 - **No Country for Old Men** by Cormac McCarthy
@@ -226,3 +228,77 @@
 - **The Yellow Wall-Paper** by Charlotte Perkins Gilman
 
 - **Milk and Honey** by Rupi Kaur 
+
+### 2017
+
+- **The Metamorphosis** by Franz Kafka
+
+- **The Perks of Being a Wallflower** by Stephen Chbosky
+
+- **To Kill a Mockingbird** by Harper Lee
+
+- **For the Love of Physics**: From the End of the Rainbow to the Edge of Time - A Journey Through the Wonders of Physics by Walter Lewin
+
+- **The Road** by Cormac McCarthy
+
+- **A Man Called Ove** by Fredrik Backman 
+
+- **When Breath Becomes Air** by Paul Kalanithi
+
+- **A Game of Thrones** (A Song of Ice and Fire, #1) by George R.R. Martin
+
+- **Black Holes: The Reith Lectures** by Stephen Hawking
+
+- **The Immortals of Meluha** (Shiva Trilogy, #1) by Amish Tripathi
+
+- **The Secret of the Nagas** (Shiva Trilogy #2) by Amish Tripathi 
+
+- **The Oath of the Vayuputras** (Shiva Trilogy, #3) by Amish Tripathi 
+
+- **Inferno** (Robert Langdon, #4) by Dan Brown 
+
+- **The Saint, the Surfer, and the CEO**: A Remarkable Story about Living Your Heart's Desires by Robin S. Sharma
+
+- **The Theory of Everything**: The Origin and Fate of the Universe by Stephen Hawking
+
+- **Seven Brief Lessons on Physics** by Carlo Rovelli
+
+- **And Then There Were None** by Agatha Christie
+
+- **Neverwhere** (London Below, #1) by Neil Gaiman
+
+- **The Zombie Survival Guide**: Complete Protection from the Living Dead by Max Brooks 
+
+- **The Monk Who Sold His Ferrari**: A Fable About Fulfilling Your Dreams and Reaching Your Destiny by Robin S. Sharma
+
+- **The Amityville Horror** by Jay Anson
+
+- **Fantastic Beasts and Where to Find Them**: The Original Screenplay (Fantastic Beasts: The Original Screenplay, #1) by J.K. Rowling
+
+- **Kimayagar** by Achyut Godbole (Marathi)
+
+- **Ganiti** by Achyut Godbole (Marathi)
+
+- **Musafir** by Achyut Godbole
+
+- **The Da Vinci Code** (Robert Langdon, #2) by Dan Brown 
+
+- **The Old Man and the Sea** by Ernest Hemingway
+
+- **Deception Point** by Dan Brown 
+
+- **Indomitable Spirit** by A.P.J. Abdul Kalam
+
+- **प्रतीक्षा** by रणजित देसाई (Marathi)
+
+- **श्यामची आई** by साने गुरुजी (Marathi)
+
+- **राधेय** by रणजित देसाई (Marathi)
+
+- **Mrutyunjay** by Shivaji Sawant (Marathi)
+
+- **A Brief History of Time** by Stephen Hawking
+
+- **Animal Farm** by George Orwell
+
+***
