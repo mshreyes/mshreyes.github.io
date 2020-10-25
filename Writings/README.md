@@ -28,9 +28,14 @@ A few articles, fiction and poems written by me. For more articles and fiction, 
 
 5. [A Letter From A Father](https://ingeniousuniverse.wordpress.com/2017/10/17/a-letter-from-a-father)
 
+### Flash Fiction
+
+1. Edge
+
+Read all flash fiction stories **[here](flash.md)**.
 
 ### Poems
 
-All the poems (good or bad) can be found **[here](Poems/README.md)**
+All the poems (good or bad) can be found **[here](Poems/README.md)**.
 
 ***
