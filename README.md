@@ -25,8 +25,6 @@ I write at **[We Guys Thought](https://weguysthought.com/)**.
 
 - **[Gallery](Gallery/README.md)**: A collection of some interesting graphs.
 
-- **[Journal](journal.md)**: My bullet journal.
-
 
 ***
 
