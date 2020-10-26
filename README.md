@@ -1,29 +1,23 @@
-
-**Introduction:** 
-
 Hello there! 
 
-I'm Shreyes. I'm an university student and I like to try new stuff. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
+I'm Shreyes. I'm an university student and I like to try new things. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
 
-I write at **[We Guys Thought](https://weguysthought.com/)**.
+Most of my published writings can be found at: **[We Guys Thought](https://weguysthought.com/)**.
 
 ***
 
 - **[Writings](Writings/README.md)**: Articles, fiction and poetry.
 
-- **[Projects](Project/README.md)**: Projects that I've worked on (including both major and mini projects)
-    - Feasibility of Dyson Rings
+- **[Projects](Project/README.md)**: Projects that I've worked on (including both major and mini projects). And some basic *programming* stuff.
+    - Feasibility of a Dyson Ring
     - Analysis of Lorenz Equations
+    - Fortran 90/95 Programs
+    - Computational methods in Physics
+- **[Lessons & Notes](Lessons/lessons.md)**: Contains notes and mini-lessons for sciences and languages (and more soon). *(WIP)*
 
-- **[Reading Notes](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
+- **[Reading](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
-- **[Lesson Notes](Lessons/lessons.md)**: Contains notes and mini-lessons for sciences and languages (and more soon). (WIP)
-
-- **[Fortran](https://github.com/mshreyes/Fortran_Programs)**: A collection of Fortran 90/95 programs.
-
-- **[Computational Physics](https://github.com/mshreyes/Computational-Physics)**: Notes and implementation of computational methods (in Fortran 90/95).
-
-- **[Gallery](Gallery/README.md)**: A collection of some interesting graphs.
+- **[Gallery](Gallery/README.md)**: A collection of some interesting graphs. *(WIP)*
 
 
 ***

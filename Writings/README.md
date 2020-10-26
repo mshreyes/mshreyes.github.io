@@ -1,6 +1,7 @@
 # Writings
 
 ***
+
 A few articles, fiction and poems written by me. For more articles and fiction, visit: **[We Guys Thought](https://weguysthought.com/)**
 
 ***
@@ -32,7 +33,7 @@ A few articles, fiction and poems written by me. For more articles and fiction, 
 
 1. Edge
 
-Read all flash fiction stories **[here](flash.md)**.
+Read all flash fiction stories **[here](flash.md)** (unedited).
 
 ### Poems
 
