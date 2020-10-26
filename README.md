@@ -6,7 +6,7 @@ Most of my published writings can be found at: **[We Guys Thought](https://weguy
 
 ***
 
-- **[Writings](Writings/README.md)**: Articles, fiction and poetry.
+- **[Writings](Writings/README.md)**: Articles, fiction, flash fiction and poetry.
 
 - **[Projects](Project/README.md)**: Projects that I've worked on (including both major and mini projects). And some basic *programming* stuff.
     - Feasibility of a Dyson Ring
