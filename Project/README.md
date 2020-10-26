@@ -24,10 +24,11 @@ Projects that I've worked on (including both major and mini projects)
     Read **[here](https://github.com/mshreyes/Computational-Physics/blob/master/LSA/Lorenz_analysis.pdf)**\
     Source files: **[link](https://github.com/mshreyes/Computational-Physics/tree/master/LSA)** (Fortran95 and GNUPlot)
 
-***
 
 #### Programming
 
 - **[Fortran](https://github.com/mshreyes/Fortran_Programs)**: A collection of Fortran 90/95 programs.
 
 - **[Computational Physics](https://github.com/mshreyes/Computational-Physics)**: Notes and implementation of computational methods (in Fortran 90/95).
+
+***
