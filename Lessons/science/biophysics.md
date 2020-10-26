@@ -6,7 +6,13 @@
 
 1. Equilibrium potential & Resting membrane potential: [Link](biophysics/L01.md)
 
-2. Action potential (WIP)
+2. Action potential (Part 1) (WIP)
+
+3. Action potential (Part 2) (WIP)
+
+4. Biomolecules 101: Carbohydrates (WIP)
+
+5. Biomolecules 101: Lipids (WIP)
 
 ***
 
