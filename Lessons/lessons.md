@@ -1,4 +1,4 @@
-## Lesson Notes
+## Lessons & Notes
 
 ***
 
