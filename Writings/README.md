@@ -14,6 +14,8 @@ A few articles, fiction and poems written by me. For more articles and fiction, 
 
 3. [Have we met? – Story of a town](https://weguysthought.com/2019/10/21/have-we-met/)
 
+4. [Pong and the Atari Shock](https://weguysthought.com/2020/11/01/pong-atari-shock/)
+
 ### Fiction
 
 1. Digits (webnovel) [Part 1 - Index](https://weguysthought.com/fiction-index/)
