@@ -14,15 +14,26 @@
 
 - **A Gentleman in Moscow** by Amor Towles
 
+
 ## Read:
 
 ### 2020:
 
 - **Letters to a Young Scientist** by Edward O. Wilson
 
+- **Unoffendable: The Art of Thriving in a World Full of Jerks** by Einzelgänger
+
 - **Brilliant Green: The Surprising History and Science of Plant Intelligence** by Stefano Mancuso
 
 - **Conscious: A Brief Guide to the Fundamental Mystery of the Mind** by Annaka Harris
+
+- **Weird Things People Say in Bookshops** by Jen Campbell
+
+- **The Silence** by Don DeLillo
+
+- **Suicide** by Edouard Leve
+
+- **The Authenticity Project** by Clare Pooney
 
 - **Bad Science** by Ben Goldacre
 
