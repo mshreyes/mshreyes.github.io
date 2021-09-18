@@ -2,8 +2,6 @@ Hello there!
 
 I'm Shreyes. I created this site to keep track of my projects, writings and notes. Feel free to explore. Hopefully you'll find something of interest.
 
-Most of my published writings can be found at: **[We Guys Thought](https://weguysthought.com/)**.
-
 ***
 
 - **[Writings](https://newtonatetheapple.wordpress.com/)**: Articles on science, internet, chess and more.
