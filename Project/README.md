@@ -15,17 +15,15 @@ Projects that I've worked on (including both major and mini projects)
 
 ***
 
-#### Mini-Projects:
-1. **Topic**: Analysis of Lorenz Equations
+#### Programming:
+
+- Analysis of Lorenz Equations
 
     - Stability analysis of fixed points for Lorenz equations
     - Numerical solutions 
 
     Read **[here](https://github.com/mshreyes/Computational-Physics/blob/master/LSA/Lorenz_analysis.pdf)**\
     Source files: **[link](https://github.com/mshreyes/Computational-Physics/tree/master/LSA)** (Fortran95 and GNUPlot)
-
-
-#### Programming
 
 - **[Fortran](https://github.com/mshreyes/Fortran_Programs)**: A collection of Fortran 90/95 programs.
 
