@@ -1,21 +1,108 @@
 # Reading Stats
 
-## Currently reading: 
-
-- **In Search of Memory** by Eric Kandel
-
-- **Dandelion Wine** by Ray Bradbury
-
-- **DNA Demystified** by ALan McHughen
-
-- **Hiroshima** by John Hersey
-
-- **A Geek in Japan** by Hector Garcia
-
-- **A Gentleman in Moscow** by Amor Towles
-
-
 ## Read:
+
+### 2021:
+
+- **Project Hail Mary** by Andy Weir
+
+- **No-Nonsense Quantum Mechanics: A Student-Friendly Introduction** by Schwichtenberg, Jakob
+
+- **Lecture Notes on Theoretical Mechanics** by Liu, Jianlin
+
+- **Gravity, Weight and Their Absence** by Pletser, Vladimir
+
+- **The Chestnut Man** by Sveistrup, Søren 
+	
+- **Every Last Word** by Stone, Tamara Ireland
+	
+- **A Long Way Down** by Hornby, Nick 
+
+- **Bobby Fischer Teaches Chess** by Fischer, Bobby 
+
+- **Stop Sucking at Chess!** by Mohler, John 
+
+- **The Wrath and the Dawn** (The Wrath and the Dawn, #1) by Ahdieh, Renee
+
+- **Notes on a Nervous Planet** by Haig, Matt
+
+- **Broken** by Kelly, Elizabeth
+
+- **One in a Million** by Kelk, Lindsey
+
+- **Flirting with Stocks: Stock Market Investing for Beginners** by Lamba, Anil 
+
+- **The Ballad of Black Tom** by Valle, Victor 
+
+- **The Well of Ascension** (Mistborn, #2) by Sanderson, Brandon 
+
+- **The Silent Patient** by Michaelides, Alex
+
+- **The Escape Of Arsene Lupin** by Leblanc, Maurice 
+
+- **The Mysterious Railway Passenger** by Leblanc, Maurice 
+
+- **Arsene Lupin In Prison** by Leblanc, Maurice 
+
+- **The Arrest of Arsene Lupin** by Leblanc, Maurice
+	
+- **A Conceptual Guide to Thermodynamics** by Poirier, Bill 
+
+- **Hate Notes** by Keeland, Vi 
+
+- **The Call of Cthulhu** by Lovecraft, H.P. 
+
+- **The Crisis Within: On Knowledge and Education in India** by Devy, G.N. 
+
+- **Hammers on Bone** by Khaw, Cassandra
+
+- **Calamity** (Reckoners, #3) by Sanderson, Brandon
+
+- **Firefight** (The Reckoners, #2) by Sanderson, Brandon
+
+- **Dark Matter** by Crouch, Blake
+
+- **Darkness Visible: A Memoir of Madness** by Styron, William 
+
+- **Steelheart** (The Reckoners, #1) by Sanderson, Brandon
+
+- **Depression & Other Magic Tricks** by Benaim, Sabrina
+
+- **Socrates in 90 Minutes** by Strathern, Paul 
+
+- **Journey to the Center of the Earth** by Verne, Jules 
+
+- **Perfect State** by Sanderson, Brandon
+
+- **Legion** (Legion, #1) by Sanderson, Brandon 
+
+- **Skin Deep** (Legion, #2) by Sanderson, Brandon
+
+- **Lies of the Beholder** (Legion, #3) by Sanderson, Brandon
+
+- **The Final Empire** (Mistborn, #1) by Sanderson, Brandon
+
+- **Brokeback Mountain** by Proulx, Annie 
+
+- **Shikhandi and Other Stories They Don't Tell You** by Pattanaik, Devdutt 
+
+- **Beach Read** by Henry, Emily 
+
+- **Existentialism is a Humanism** by Sartre, Jean-Paul 
+
+- **Killing Floor**(Jack Reacher, #1) by Child, Lee
+
+- **Advice for a Young Investigator** by Ramón y Cajal, Santiago 
+
+- **Always Never Yours** by Wibberley, Emily
+
+- **Food Rules: An Eater's Manual** by Pollan, Michael
+
+- **If I'm Being Honest** by Wibberley, Emily
+
+
+
+
 
 ### 2020:
 
