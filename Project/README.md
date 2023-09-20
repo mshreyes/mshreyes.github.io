@@ -6,10 +6,19 @@ Projects that I've worked on (including both major and mini projects)
 
 ***
 
-1. **Topic**: Feasibility of a Dyson ring
+1. **Title**: Effect of simulated microgravity & hypergravity on growth characteristics in cyanobacteria Synechocystis PCC 6803
+   
+   **Objectives**: 
+    - To determine the dominant forces inside a 2D clinostat and to study their effects on bacterial cells.
+    - To study the effect of simulated microgravity (SMG) and hypergravity on growth curve, cell viability and cell morphology in Synechocystis PCC6803 compared to control (1g). 
+
+    Read **[Here](Simulated_microgravity_and_hypergravity_project.pdf)**
+
+2.  **Title**: Feasibility of a Dyson ring
 
     **Abstract**: Solar power being an important energy source for life on earth, is least exploited. This project will attempt at studying and predicting whether it is possible to substantiate the idea of Dyson ring, which has been around for a long time, in order to utilize solar energy on a larger scale. In order to simulate this
-    idea, Wolfram Language (Mathematica) was used.\
+    idea, Wolfram Language (Mathematica) was used.
+    
     Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)** and (readable) code **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20Ring%20(Code).pdf)** \
     Source code: **[link](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson_ring.nb)** (Mathematica)
 

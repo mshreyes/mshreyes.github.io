@@ -20,8 +20,6 @@ Quotes, unforgettable lines, intriguing passages and advice from books that I've
 
 - *When Nietzsche Wept: A Novel of Obsession* by Irvin D. Yalom: [Read notes](Book7.md)
 
-**Reading stats including books read and currently reading: [Reading Stats](Stats.md)**
-
 ***
 
 *All rights of the content posted in the notes are with the respective author.*
