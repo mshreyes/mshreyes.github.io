@@ -7,10 +7,11 @@ I'm Shreyes. I created this site to keep track of my projects, writings and note
 - **[Writings](https://newtonatetheapple.substack.com/)**: Articles on science, internet, chess and more.
 
 - **[Projects](Project/README.md)**: Projects that I've worked on (including both major and mini projects). And some basic *programming* stuff.
-    - Feasibility of a Dyson Ring
-    - Analysis of Lorenz Equations
-    - Fortran 90/95 Programs
-    - Computational methods in Physics
+    - Effect of simulated microgravity & hypergravity on growth characteristics in cyanobacteria Synechocystis PCC 6803.
+    - Feasibility of a Dyson Ring.
+    - Analysis of Lorenz Equations.
+    - Fortran 90/95 Programs.
+    - Computational methods in Physics.
     
 - **[Reading](Reading/README.md)**: Quotes, intriguing passages and advice from books that I've finished reading.
 
