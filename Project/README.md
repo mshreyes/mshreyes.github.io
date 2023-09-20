@@ -12,7 +12,9 @@ Projects that I've worked on (including both major and mini projects)
     - To determine the dominant forces inside a 2D clinostat and to study their effects on bacterial cells.
     - To study the effect of simulated microgravity (SMG) and hypergravity on growth curve, cell viability and cell morphology in Synechocystis PCC6803 compared to control (1g). 
 
-    Read **[Here](Simulated_microgravity_and_hypergravity_project.pdf)**
+    Read **[Here](Project report.pdf)**
+
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 2.  **Title**: Feasibility of a Dyson ring
 
@@ -21,6 +23,8 @@ Projects that I've worked on (including both major and mini projects)
     
     Read **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20ring.pdf)** and (readable) code **[here](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson%20Ring%20(Code).pdf)** \
     Source code: **[link](https://github.com/mshreyes/mshreyes.github.io/blob/master/Project/Dyson_ring.nb)** (Mathematica)
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 ***
 
