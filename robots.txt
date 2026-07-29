@@ -1,0 +1,98 @@
+# ==================================================
+# Robots.txt
+# ==================================================
+#
+# This website contains academic research information,
+# publications, and open research resources.
+#
+# ==================================================
+
+
+# ------------------------------
+# Major Search Engines
+# ------------------------------
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+
+# ------------------------------
+# AI Training / Dataset Crawlers
+# ------------------------------
+
+# OpenAI training crawler
+User-agent: GPTBot
+Disallow: /
+
+# ChatGPT browsing user agent
+User-agent: ChatGPT-User
+Disallow: /
+
+# Common Crawl dataset crawler
+User-agent: CCBot
+Disallow: /
+
+# Anthropic crawler
+User-agent: ClaudeBot
+Disallow: /
+
+# Google AI training crawler
+User-agent: Google-Extended
+Disallow: /
+
+# Amazon AI crawler
+User-agent: Amazonbot
+Disallow: /
+
+# Meta AI crawler
+User-agent: FacebookBot
+Disallow: /
+
+# Cohere crawler
+User-agent: cohere-ai
+Disallow: /
+
+# Applebot (AI training control)
+User-agent: Applebot-Extended
+Disallow: /
+
+
+# ------------------------------
+# Other Known Crawlers
+# ------------------------------
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+
+# ------------------------------
+# General Crawlers
+# ------------------------------
+
+# Allow normal indexing
+User-agent: *
+Allow: /
