@@ -11,7 +11,3 @@ Clone the repository and open `index.html` in a browser to view the site locally
 ## Deployment
 
 This repository is configured for GitHub Pages deployment.
-
-## License
-
-Content and code are available for reference and reuse where applicable.
