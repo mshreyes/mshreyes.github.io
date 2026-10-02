@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmarking AI models for nuclear receptor activity from Tox21 assays</title>
+<meta name="description" content="Interactive summary of Chivukula et al. (2026), Computational Toxicology 39, 100439.">
+<style>
+:root{--bg:#f2f7f8;--panel:#fff;--ink:#0b2a3b;--mute:#4d6672;--tide:#137c8b;--brine:#cfe3e7;--buoy:#d9531e;--line:#c3d4d9}
+@media (prefers-color-scheme:dark){:root{--bg:#0a1a23;--panel:#10252f;--ink:#e6f0f3;--mute:#9db5bf;--tide:#4fc0d0;--brine:#1d3b47;--buoy:#ff875a;--line:#27434f}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Iowan Old Style",Palatino,Georgia,serif}
+button,nav,.lab{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--tide)}
+header{padding:56px 6vw 32px;max-width:1000px;margin:0 auto}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.01em}
+.cite{color:var(--mute);font-size:.9rem}
+.links a{display:inline-block;margin:10px 14px 0 0;font-family:system-ui,sans-serif;font-size:.9rem}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;justify-content:safe center;gap:4px;overflow-x:auto;padding:8px 6vw}
+nav a{white-space:nowrap;text-decoration:none;color:var(--mute);padding:6px 10px;border-radius:6px;font-size:.88rem}
+nav a:hover,nav a:focus-visible{background:var(--brine);color:var(--ink)}
+main{max-width:1000px;margin:0 auto;padding:0 6vw 80px}
+section{padding:44px 0 8px;border-bottom:1px solid var(--line)}
+h2{font-size:1.7rem;margin:0 0 6px}
+.lede{max-width:66ch;color:var(--mute);margin:0 0 22px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 24px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+button{cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 13px;font-size:.84rem}
+button[aria-pressed=true]{background:var(--tide);border-color:var(--tide);color:#fff}
+button:focus-visible{outline:2px solid var(--buoy);outline-offset:2px}
+.row{display:grid;grid-template-columns:minmax(110px,230px) 1fr 64px;gap:10px;align-items:center;margin:5px 0;font-family:system-ui,sans-serif;font-size:.86rem}
+.row .t{background:var(--brine);border-radius:4px;height:20px;overflow:hidden}
+.row .f{height:100%;background:var(--tide);border-radius:4px;transition:width .5s}
+.row.hot .f{background:var(--buoy)}
+.row .v{text-align:right;font-variant-numeric:tabular-nums}
+.row .n{overflow-wrap:anywhere}
+.cap{font-family:system-ui,sans-serif;font-size:.84rem;color:var(--mute);margin:10px 0 0}
+.fun{display:block;width:100%;text-align:left;border-radius:8px;border:1px solid var(--line);padding:0;margin:6px 0;background:var(--panel);position:relative;overflow:hidden;min-height:44px}
+.fun .bar{position:absolute;inset:0 auto 0 0;background:var(--brine);transition:width .5s}
+.fun[aria-pressed=true]{background:var(--panel);border-color:var(--tide);border-width:2px;color:var(--ink)}
+.fun[aria-pressed=true] .bar{background:var(--tide);opacity:.35}
+.fun span{position:relative;display:flex;justify-content:space-between;gap:12px;padding:10px 14px;font-size:.92rem}
+.fun b{font-variant-numeric:tabular-nums}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 24px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat b{display:block;font:700 1.6rem/1.1 system-ui,sans-serif;color:var(--tide)}
+.stat small{font-family:system-ui,sans-serif;color:var(--mute);font-size:.8rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:760px){.two{grid-template-columns:1fr}.row{grid-template-columns:100px 1fr 54px}}
+h3{font:600 1rem system-ui,sans-serif;margin:0 0 10px}
+ul.lim{padding-left:1.1em;max-width:70ch}
+footer{max-width:1000px;margin:0 auto;padding:24px 6vw 60px;color:var(--mute);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>Benchmarking AI models for predicting nuclear receptor activity from Tox21 assays</h1>
+<p class="cite">Chivukula N., Karthikeyan J., Thangavel H., Madgaonkar S.R., Samal A. (2026). <i>Computational Toxicology</i> 39, 100439.</p>
+<p style="max-width:66ch">The study compares machine learning, deep learning and transformer models, each with several chemical feature sets, on <b>43 nuclear receptor datasets</b> curated from ToxCast invitrodb v4.3. The aim is to see how performance varies with dataset characteristics, not to crown a single best model. This page is an interactive summary; every number comes from the paper's text, tables and figures.</p>
+<div class="links"><a href="https://doi.org/10.1016/j.comtox.2026.100439">Paper (DOI)</a><a href="https://github.com/asamallab/Nuclear_Receptors-Tox21-AI">Data and code on GitHub</a></div>
+</header>
+<nav aria-label="Sections"><a href="#data">Data</a><a href="#datasets">Datasets</a><a href="#models">Models</a><a href="#perf">Performance</a><a href="#space">Chemical space</a><a href="#external">External validation</a><a href="#lit">Literature</a><a href="#limits">Limitations</a></nav>
+<main>
+
+<section id="data">
+<h2>From ToxCast to a modelling set</h2>
+<p class="lede">Select a stage to see how 9,800 ToxCast chemicals were reduced to 8,430 organic compounds with every feature computed.</p>
+<div class="box"><div id="funnel"></div><p id="fdetail" class="cap" aria-live="polite"></p></div>
+<div class="stats">
+<div class="stat"><b>30 + 13</b><small>assays + combined agonist/antagonist datasets = 43</small></div>
+<div class="stat"><b>18</b><small>nuclear receptors (of 50 considered)</small></div>
+<div class="stat"><b>54</b><small>model combinations per dataset</small></div>
+<div class="stat"><b>6,966</b><small>training and testing sessions (3 splits each)</small></div>
+</div>
+</section>
+
+<section id="datasets">
+<h2>Class imbalance across datasets</h2>
+<p class="lede">Active chemicals are a minority in every dataset, which is why F1 was the primary metric. Bars above 10% active are highlighted.</p>
+<div class="box"><div class="tabs" id="dstabs" role="group" aria-label="Activity type"></div><div id="dschart"></div><p class="cap" id="dscap"></p></div>
+<p>Active was defined as hit-call ≥ 0.9; chemicals with ties between active and inactive replicates were dropped as inconclusive. A combined dataset labels a chemical active if it is active in either the agonist or antagonist assay, so it shows interaction with the receptor but not the mechanism.</p>
+</section>
+
+<section id="models">
+<h2>Models and features</h2>
+<div class="two">
+<div class="box"><h3>Architectures</h3><div id="arch"></div></div>
+<div class="box"><h3>Chemical features</h3><div id="feat"></div><p class="cap">Fingerprints are bit counts; descriptors are counts of values per chemical. DGCL also gets SMILES-derived molecular graphs; transformers take SMILES only.</p></div>
+</div>
+<ul class="lim">
+<li><b>Split:</b> ML used 80/20 train/test with ten-fold cross-validation for tuning; DL and transformers used 80/10/10. Seeds 42, 123 and 1337; stratified.</li>
+<li><b>Preprocessing:</b> zero-variance filter, Boruta (top 100 features), SMOTE with 3 nearest neighbors for ML.</li>
+<li><b>Applicability domain:</b> DA index with a 95th-percentile threshold excluded 3–8% of test chemicals.</li>
+</ul>
+</section>
+
+<section id="perf">
+<h2>What drives performance</h2>
+<p class="lede">The key finding is that the best model depends on how many actives a dataset has. Choose a regime.</p>
+<div class="box"><div class="tabs" id="regtabs" role="group" aria-label="Active ratio regime"></div><div id="regstats" class="stats" style="margin-top:6px"></div><p id="regtext" style="margin:0"></p></div>
+<div class="two">
+<div class="box"><h3>F1 vs. percent actives (Pearson r)</h3><div id="corr"></div><p class="cap">Best F1 per dataset against its active ratio (Fig. 4). Overall p = 5.1e-07; ≥10%: p = 3.0e-05; &lt;10%: p = 0.87.</p></div>
+<div class="box"><h3>Which feature won most often (datasets)</h3><div id="wins"></div><p class="cap">Counts as stated in Results 3.3.1: ML by feature type, then DL and transformers. Not mutually exclusive across families.</p></div>
+</div>
+<p>MoLFORMER beat ChemBERTa and MolRAG consistently; the authors attribute this to atom-wise tokenization and a larger pre-training set, which is a hypothesis rather than a tested result. No model architecture was consistently best across all datasets.</p>
+</section>
+
+<section id="space">
+<h2>Chemical space and misclassification</h2>
+<div class="two">
+<div class="box"><h3>Largest ClassyFire superclasses (of 8,430)</h3><div id="super"></div><p class="cap">21 superclasses, 257 classes, 446 subclasses in total. All chemicals are organic.</p></div>
+<div class="box"><h3>Similarity network (Tanimoto &gt; 0.5)</h3><div id="csn"></div><p class="cap">15,841 edges; 650 connected components with at least 2 chemicals.</p></div>
+</div>
+<p>About 43% of false negatives (missed actives) were isolated nodes in the network, versus about 39% of actives overall. The authors read this as limited structural analogs in training contributing to misclassification, and note it as a possible reason for MolRAG's low F1 (its retrieved reference molecules are less informative). Activity cliffs at a 0.5 similarity cutoff appeared in 38 of 43 datasets, but only 6 at 0.9. PR agonist had the highest share (32.54% of actives; 55 chemicals, 76 cliffs).</p>
+</section>
+
+<section id="external">
+<h2>External validation</h2>
+<p class="lede">Representative models for AR, ERα and ERβ were tested on NTP ICE in vitro and in vivo data. Only 20–30 active chemicals were available per set.</p>
+<div class="box"><div class="tabs" id="exttabs" role="group" aria-label="Metric"></div><div id="extchart"></div><p class="cap">Training chemicals were removed and chemicals with conflicting labels excluded. The ER in vivo data are rat uterotrophic assays, primarily ERα-driven, so the ERβ result does not reflect ERβ-specific activity.</p></div>
+</section>
+
+<section id="lit">
+<h2>Comparison with published models</h2>
+<div class="stats">
+<div class="stat"><b>207</b><small>Scopus records (searched 16 March 2026)</small></div>
+<div class="stat"><b>49</b><small>used nuclear receptor Tox21 data</small></div>
+<div class="stat"><b>13</b><small>reported F1 scores</small></div>
+</div>
+<p>Of those 13: 5 used ToxCast invitrodb (3 on v4.1, 1 on v3.2, 1 on v2), 6 used the Tox21 Data Challenge set, and 2 used CERAPP or PubChem bioassays. Against studies using invitrodb, this study reported higher F1 for the majority of assays, mostly from RF or XGBoost with descriptors. For several endpoints (for example GR agonist, 0.85 in an invitrodb v2 study) earlier F1 values were higher. The authors stress that dataset versions, preprocessing and imbalance handling differ, and that training/test partitions of earlier studies were unavailable, so the comparison is not controlled.</p>
+</section>
+
+<section id="limits">
+<h2>Limitations stated by the authors</h2>
+<ul class="lim">
+<li>Descriptor failures drop chemicals; models cover organic compounds only.</li>
+<li>The features behind descriptor-based gains were not identified, and other descriptor sets were not tested.</li>
+<li>SMOTE samples may not reflect the true minority distribution in severely imbalanced datasets.</li>
+<li>SVM failed to converge on some feature sets, leaving missing predictions for those splits.</li>
+<li>Three random splits may not capture variability; stratified splitting is questionable for extremely imbalanced sets. The "representative" model is the top test F1, not a claim of best model.</li>
+<li>DA-index distance metrics differ by feature space, which limits comparison of AD-corrected performance.</li>
+<li>External validation covers only AR and ER with few actives, and ER data lack subtype annotation.</li>
+</ul>
+</section>
+</main>
+<footer>Unofficial interactive summary. Figures and claims belong to the original paper; see it for methods and supplementary tables (S1–S9).</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function bars(id,items,o={}){
+  const max=o.max||Math.max(...items.map(i=>i.v));
+  $(id).innerHTML=items.map(i=>`<div class="row${i.hot?' hot':''}"><span class="n">${esc(i.n)}</span><span class="t"><span class="f" style="display:block;width:${i.v/max*100}%"></span></span><span class="v">${o.fmt?o.fmt(i.v):i.v}</span></div>`).join('');
+}
+function tabs(id,names,cb,start=0){
+  const el=$(id);
+  el.innerHTML=names.map((n,i)=>`<button type="button" aria-pressed="${i===start}">${esc(n)}</button>`).join('');
+  [...el.children].forEach((b,i)=>b.onclick=()=>{[...el.children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');cb(i)});
+  cb(start);
+}
+const n0=v=>v.toLocaleString('en-US');
+
+/* Funnel */
+const F=[
+ {l:'ToxCast invitrodb v4.3 chemicals',v:9800,d:'2D structures obtained from DSSTox identifiers via the CompTox Chemicals Dashboard.'},
+ {l:'Valid 2D structures',v:8709,d:'MayaChemTools removed invalid structures, stripped salts and eliminated duplicates.'},
+ {l:'With 2D and 3D structures',v:8554,d:'3D structures generated with RDKit (ETKDG embedding, MMFF94 minimization).'},
+ {l:'All features computed',v:8430,d:'Chemicals for which fingerprints and both descriptor sets (PaDEL 1,875; RDKit 231) were generated. All 8,430 are organic.',hot:1}
+];
+$('funnel').innerHTML=F.map((s,i)=>`<button type="button" class="fun" aria-pressed="${i===0}"><span class="bar" style="width:${s.v/9800*100}%"></span><span>${esc(s.l)}<b>${n0(s.v)}</b></span></button>`).join('');
+[...$('funnel').children].forEach((b,i)=>b.onclick=()=>{[...$('funnel').children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');$('fdetail').textContent=F[i].d});
+$('fdetail').textContent=F[0].d;
+
+/* Datasets: [receptor, agonist, antagonist, combined] % active (Table 1) */
+const D=[['AHR',7.74,null,null],['AR',4.67,15.01,17.27],['CAR',10.1,7.65,17.35],['ERα',4.26,9.93,12.66],['ERβ',1.53,17.08,17.88],['ESRRA',2.99,19.27,21.94],['FXR',1.49,7.65,8.18],['GR',4.99,6.15,10.4],['PPARd',2.12,5.37,7.02],['PPARg',2.21,7.19,7.94],['PR',2.44,24.61,25.28],['PXR',28.32,null,null],['RARA',3.04,8.64,11.33],['RORC',null,7.98,null],['RXRA',3.45,null,null],['THRA/THRB',0.33,22.61,22.52],['VDR',0.74,4.88,5.38]];
+const dn=['Agonist (16)','Antagonist (14)','Combined (13)'];
+tabs('dstabs',dn,i=>{
+  const it=D.filter(r=>r[i+1]!=null).map(r=>({n:r[0],v:r[i+1],hot:r[i+1]>10})).sort((a,b)=>b.v-a.v);
+  bars('dschart',it,{max:30,fmt:v=>v.toFixed(2)+'%'});
+  $('dscap').textContent=`${it.length} datasets; ${it.filter(x=>x.hot).length} exceed 10% active. Receptors without both assay types have no combined set.`;
+});
+
+/* Models */
+bars('arch',[{n:'ML: LR, DT, RF, GBT, XGBoost, SVM, MLP',v:49},{n:'DL: DGCL (descriptors, fingerprints)',v:2},{n:'Transformers: ChemBERTa, MoLFORMER, MolRAG',v:3}],{max:49,fmt:v=>v+' combos'});
+bars('feat',[{n:'RDKit descriptors',v:231},{n:'PaDEL descriptors',v:1875},{n:'MACCS',v:167},{n:'ECFP4',v:1024},{n:'FCFP4',v:1024},{n:'Layered',v:2048}],{max:2048});
+
+/* Regimes */
+const G=[
+ {n:'Above 10% active',s:[['r = 0.85','F1 vs. active ratio'],['RF, XGBoost','best, with descriptors or descriptors + fingerprints']],t:'Descriptor-based combinations consistently gave the highest average F1, and tree ensembles (RF, XGBoost) were consistently among the top ML algorithms. F1 rose strongly with active ratio.'},
+ {n:'5–10% active',s:[['6 of 13','datasets where DGCL + descriptors was best'],['r ≈ 0.03','F1 vs. active ratio (all datasets below 10%)']],t:'DGCL with descriptors was best in 6 of 13 datasets and comparable to the representative model in the rest, suggesting more robust performance at this moderate imbalance.'},
+ {n:'Below 5% active',s:[['No trend','model-feature pairs vary by dataset'],['r ≈ 0.03','F1 vs. active ratio (all datasets below 10%)']],t:'No clear pattern emerged. Winning model-feature pairs were dataset-dependent, and the active ratio alone did not explain F1. MoLFORMER had the highest average F1 in 3 severely imbalanced datasets.'}
+];
+tabs('regtabs',G.map(g=>g.n),i=>{$('regstats').innerHTML=G[i].s.map(s=>`<div class="stat"><b style="font-size:1.25rem">${esc(s[0])}</b><small>${esc(s[1])}</small></div>`).join('');$('regtext').textContent=G[i].t;});
+bars('corr',[{n:'≥10% active',v:0.85,hot:1},{n:'Overall',v:0.68},{n:'<10% active',v:0.03}],{max:1,fmt:v=>'r = '+v.toFixed(2)});
+bars('wins',[{n:'ML, descriptors',v:18},{n:'DGCL, descriptors',v:9},{n:'ML, descriptors + fingerprints',v:8},{n:'DGCL, fingerprints',v:3},{n:'MoLFORMER',v:3},{n:'ML, Layered fingerprints',v:2}],{max:18});
+
+/* Chemical space */
+bars('super',[{n:'Benzenoids',v:2717},{n:'Organoheterocyclic compounds',v:1879},{n:'Organic acids and derivatives',v:961}],{max:2717,fmt:n0});
+bars('csn',[{n:'Isolated nodes (34.2%)',v:2885},{n:'Largest component (29.7%)',v:2502}],{max:2885,fmt:n0});
+
+/* External validation: F1, recall */
+const E=[['AR agonist, in vitro',.72,.88],['AR agonist, in vivo',.73,.74],['AR antagonist, in vitro',.51,.71],['AR antagonist, in vivo',.32,.48],['ERα agonist, in vivo',.74,.71],['ERβ agonist, in vivo',.36,.24]];
+tabs('exttabs',['Average F1','Average recall'],i=>bars('extchart',E.map(r=>({n:r[0],v:r[i+1],hot:r[i+1]<.5})),{max:1,fmt:v=>v.toFixed(2)}));
+</script>
+</body>
+</html>
