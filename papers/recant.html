@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReCAnt: chemicals used in aquaculture and their ecotoxicity</title>
+<meta name="description" content="Interactive summary of Madgaonkar et al. (2026), Cell Reports Sustainability 3, 100794.">
+<style>
+:root{--bg:#f2f7f8;--panel:#fff;--ink:#0b2a3b;--mute:#4d6672;--tide:#137c8b;--brine:#cfe3e7;--buoy:#d9531e;--line:#c3d4d9}
+@media (prefers-color-scheme:dark){:root{--bg:#0a1a23;--panel:#10252f;--ink:#e6f0f3;--mute:#9db5bf;--tide:#4fc0d0;--brine:#1d3b47;--buoy:#ff875a;--line:#27434f}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Iowan Old Style",Palatino,Georgia,serif}
+.ui,button,nav,.lab{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--tide)}
+header{padding:56px 6vw 32px;max-width:1000px;margin:0 auto}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.01em}
+.cite{color:var(--mute);font-size:.9rem}
+.links a{display:inline-block;margin:10px 14px 0 0;font-family:system-ui,sans-serif;font-size:.9rem}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:4px;overflow-x:auto;padding:8px 6vw}
+nav a{white-space:nowrap;text-decoration:none;color:var(--mute);padding:6px 10px;border-radius:6px;font-size:.88rem}
+nav a:hover,nav a:focus-visible{background:var(--brine);color:var(--ink)}
+main{max-width:1000px;margin:0 auto;padding:0 6vw 80px}
+section{padding:44px 0 8px;border-bottom:1px solid var(--line)}
+h2{font-size:1.7rem;margin:0 0 6px}
+.lede{max-width:66ch;color:var(--mute);margin:0 0 22px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 24px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+button{cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 13px;font-size:.84rem}
+button[aria-pressed=true]{background:var(--tide);border-color:var(--tide);color:#fff}
+button:focus-visible{outline:2px solid var(--buoy);outline-offset:2px}
+.row{display:grid;grid-template-columns:minmax(110px,230px) 1fr 64px;gap:10px;align-items:center;margin:5px 0;font-family:system-ui,sans-serif;font-size:.86rem}
+.row .t{background:var(--brine);border-radius:4px;height:20px;overflow:hidden}
+.row .f{height:100%;background:var(--tide);border-radius:4px;transition:width .5s}
+.row.hot .f{background:var(--buoy)}
+.row .v{text-align:right;font-variant-numeric:tabular-nums}
+.row .n{overflow-wrap:anywhere}
+.cap{font-family:system-ui,sans-serif;font-size:.84rem;color:var(--mute);margin:10px 0 0}
+.fun{display:block;width:100%;text-align:left;border-radius:8px;border:1px solid var(--line);padding:0;margin:6px 0;background:var(--panel);position:relative;overflow:hidden;min-height:44px}
+.fun .bar{position:absolute;inset:0 auto 0 0;background:var(--brine);transition:width .5s}
+.fun[aria-pressed=true]{background:var(--panel);border-color:var(--tide);border-width:2px;color:var(--ink)}
+.fun[aria-pressed=true] .bar{background:var(--tide);opacity:.35}
+.fun span{position:relative;display:flex;justify-content:space-between;gap:12px;padding:10px 14px;font-size:.92rem}
+.fun b{font-variant-numeric:tabular-nums}
+#fdetail{min-height:3.4em}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 24px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat b{display:block;font:700 1.6rem/1.1 system-ui,sans-serif;color:var(--tide)}
+.stat small{font-family:system-ui,sans-serif;color:var(--mute);font-size:.8rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:760px){.two{grid-template-columns:1fr}.row{grid-template-columns:100px 1fr 54px}}
+h3{font:600 1rem system-ui,sans-serif;margin:0 0 10px}
+ul.lim{padding-left:1.1em;max-width:70ch}
+footer{max-width:1000px;margin:0 auto;padding:24px 6vw 60px;color:var(--mute);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>A resource on chemicals used in aquaculture and their ecotoxicity</h1>
+<p class="cite">Madgaonkar S.R., Vashishth S., Chivukula N., Garisetti V., Marigoudar S.R., Sharma K.V., Samal A. (2026). <i>Cell Reports Sustainability</i> 3, 100794.</p>
+<p style="max-width:66ch">The paper curates <b>690 chemicals</b> reported in aquaculture literature and combines them with toxicogenomic, ecotoxicity, regulatory, environmental-fate and food-web data in a database called ReCAnt. This page is an interactive summary; every number comes from the paper's text and figures.</p>
+<div class="links"><a href="https://doi.org/10.1016/j.crsus.2026.100794">Paper (open access, CC BY-NC-ND)</a><a href="https://cb.imsc.res.in/recant/">ReCAnt web server</a><a href="https://github.com/asamallab/ReCAnt">Code on GitHub</a></div>
+</header>
+<nav aria-label="Sections"><a href="#curation">Curation</a><a href="#composition">Composition</a><a href="#regulation">Regulation</a><a href="#toxicity">Toxicity</a><a href="#fate">Fate</a><a href="#foodweb">Food webs</a><a href="#space">Chemical space</a><a href="#limits">Limitations</a></nav>
+<main>
+
+<section id="curation">
+<h2>How the 690 chemicals were assembled</h2>
+<p class="lede">PubMed query, manual screening, then top-up from CTD and ECOTOX. Select a stage to see what was done and what was excluded.</p>
+<div class="box">
+<div id="funnel"></div>
+<p id="fdetail" class="cap" aria-live="polite"></p>
+<p class="cap">Query (searched 21 May 2025): <code>"aquaculture"[tiab] AND ("drug*"[tiab] OR "chemical*"[tiab])</code></p>
+</div>
+</section>
+
+<section id="composition">
+<h2>What is in the database</h2>
+<p class="lede">Most entries are individual compounds or mixtures; plant-derived products dominate the mixtures, and the structure-resolved chemicals are mostly organic.</p>
+<div class="stats">
+<div class="stat"><b>71</b><small>actively used (619 tested only)</small></div>
+<div class="stat"><b>215</b><small>with toxic-effect data</small></div>
+<div class="stat"><b>621</b><small>with therapeutic-potential data</small></div>
+<div class="stat"><b>71</b><small>aquaculture-relevant species</small></div>
+</div>
+<div class="two">
+<div class="box"><h3>Entity type (n = 690)</h3><div id="types"></div></div>
+<div class="box"><h3>Articles per period on aquaculture chemicals</h3><div id="pubs"></div><p class="cap">Publications nearly double every 5 years.</p></div>
+</div>
+<div class="box"><h3>Species use (of 71)</h3><div id="species"></div></div>
+</section>
+
+<section id="regulation">
+<h2>Regulatory coverage</h2>
+<p class="lede">Only 57 of the 690 chemicals carry any regulatory information. The authors caution that absence of information does not mean a chemical is unregulated, and that roughly half are natural products often outside conventional frameworks.</p>
+<div class="box"><div class="tabs" id="regtabs" role="group" aria-label="Regulation view"></div><div id="regchart"></div><p class="cap" id="regcap"></p></div>
+</section>
+
+<section id="toxicity">
+<h2>Ecotoxicity (ECOTOX)</h2>
+<p class="lede">ECOTOX gave toxicity data for 142 chemicals across 53 aquaculture-relevant species. Chronic medians are lower than acute ones.</p>
+<div class="stats">
+<div class="stat"><b>2.30 ppm</b><small>overall acute median (119 chemicals, 48 species)</small></div>
+<div class="stat"><b>0.48 ppm</b><small>overall chronic median (112 chemicals, 49 species)</small></div>
+<div class="stat"><b>86.74 L/kg</b><small>median BCF (24 chemicals, 16 species)</small></div>
+</div>
+<div class="box"><div class="tabs" id="toxtabs" role="group" aria-label="Toxicity type"></div><div id="toxchart"></div><p class="cap" id="toxcap"></p></div>
+<p>Copper sulfate had the most records for both toxicity types, followed by sodium hypochlorite (acute) and atrazine (chronic). Via CTD, atrazine had the most gene associations (4,866); chlorpyrifos had the most phenotype (96) and disease (57) associations.</p>
+</section>
+
+<section id="fate">
+<h2>Biotransformation and environmental fate</h2>
+<div class="stats">
+<div class="stat"><b>229</b><small>chemicals with predicted or curated transformation products</small></div>
+<div class="stat"><b>1,380 / 1,510</b><small>edges / nodes in reaction network</small></div>
+<div class="stat"><b>230</b><small>chemicals with EPI Suite partition coefficients</small></div>
+<div class="stat"><b>102</b><small>chemicals with AqSolDB solubility</small></div>
+</div>
+<div class="two">
+<div class="box"><h3>Highest out-degree (aquaculture chemicals)</h3><div id="outdeg"></div><h3 style="margin-top:16px">Highest in-degree (transformation products)</h3><div id="indeg"></div><p class="cap">Many complex molecules appear to degrade into the same few simple ones.</p></div>
+<div class="box"><h3>Solubility and lipophilicity</h3><p style="margin:0 0 10px">Median LogS is −2.34 (range −8.402 to 1.365): slightly soluble. Correlation with logK<sub>ow</sub> and bioaccumulation (all p &lt; 0.05):</p><div id="corr"></div><p class="cap">Most chemicals sit in the region of higher air-water than octanol-water partitioning. These are screening-level predictions for neutral forms at 25 °C.</p></div>
+</div>
+<p>Of the 37 chemicals with PBMT classifications, all were PMT; six (azithromycin, sulfadiazine, erythromycin, atrazine, triclosan, diuron) were also reported as vPvM.</p>
+</section>
+
+<section id="foodweb">
+<h2>Food-web trophic transfer</h2>
+<p class="lede">GloBI predator–prey links were joined with ECOTOX BCF and toxicity data. A chemical–predator path is a proxy for potential trophic transfer, not a measured exposure. Filtered networks drop prey that are sensitive (below HC05), a more conservative view.</p>
+<div class="box">
+<div class="tabs" id="fwtabs" role="group" aria-label="Network"></div>
+<div id="fwstats" class="stats" style="margin-top:6px"></div>
+<div class="two"><div><h3>Chemicals by connected predator species</h3><div id="fwchem"></div></div><div><h3 id="fwph">Predators by connected chemicals</h3><div id="fwpred"></div></div></div>
+<p class="cap" id="fwcap"></p>
+</div>
+</section>
+
+<section id="space">
+<h2>Chemical space</h2>
+<p class="lede">The 339 structure-resolved compounds are structurally diverse. These analyses are exploratory and descriptive, not mechanistic.</p>
+<div class="stats">
+<div class="stat"><b>148</b><small>edges in similarity network (Tanimoto &gt; 0.5)</small></div>
+<div class="stat"><b>176</b><small>isolated nodes</small></div>
+<div class="stat"><b>13</b><small>nodes in largest component</small></div>
+<div class="stat"><b>184</b><small>unique Bemis-Murcko scaffolds</small></div>
+<div class="stat"><b>237</b><small>Butina clusters (180 singletons)</small></div>
+</div>
+<p>Quinone (26 chemicals) and benzene (24) are the most frequent scaffolds; the next is 6. The quinone scaffold has no known regulatory status in the data, while benzene is the only scaffold shared across the regulatory, therapeutic and toxic-effect profiles.</p>
+</section>
+
+<section id="limits">
+<h2>Limitations stated by the authors</h2>
+<ul class="lim">
+<li>The query may miss chemicals described with class-specific terms rather than umbrella terms in titles or abstracts.</li>
+<li>Only peer-reviewed, PubMed-indexed articles were curated; agency reports and industry documents were excluded.</li>
+<li>Structures were available for about half the chemicals; mixtures and others rely on manually curated data only.</li>
+<li>Biotransformation and partitioning values are computational predictions. The case study (atrazine, ivermectin, netilmicin) is not a validation of the broader network.</li>
+<li>The trophic transfer analysis is a screening demonstration, not a predictive model of transfer or ecological risk.</li>
+</ul>
+</section>
+</main>
+<footer>Unofficial interactive summary. Figures and claims belong to the original paper; refer to it for methods and supplementary tables (S1–S20).</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function bars(id,items,o={}){
+  const max=o.max||Math.max(...items.map(i=>i.v));
+  const pos=v=>o.log?Math.max(2,(Math.log10(v)-Math.log10(o.lo))/(Math.log10(o.hi)-Math.log10(o.lo))*100):v/max*100;
+  $(id).innerHTML=items.map(i=>`<div class="row${i.hot?' hot':''}"><span class="n">${esc(i.n)}</span><span class="t"><span class="f" style="display:block;width:${pos(i.v)}%"></span></span><span class="v">${o.fmt?o.fmt(i.v):i.v}</span></div>`).join('');
+}
+function tabs(id,names,cb,start=0){
+  const el=$(id);
+  el.innerHTML=names.map((n,i)=>`<button type="button" aria-pressed="${i===start}">${esc(n)}</button>`).join('');
+  [...el.children].forEach((b,i)=>b.onclick=()=>{[...el.children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');cb(i)});
+  cb(start);
+}
+const n0=v=>v.toLocaleString('en-US');
+
+/* Curation funnel */
+const F=[
+ {l:'Articles identified in PubMed',v:2351,d:'Unique research articles from the PubMed query.'},
+ {l:'Primary studies, English',v:2321,d:'30 excluded: not a primary study (editorials, errata, letters) or not in English.'},
+ {l:'Experimental data on aquaculture chemicals',v:1457,d:'864 excluded after title/abstract screening: 94 reviews and 770 with no actively used or tested aquaculture chemical. Also excluded: unintended contaminants, environmental sampling, pollution dynamics, bioremediation, AMR and in silico studies.'},
+ {l:'Significant toxic or therapeutic effect',v:257,d:'1,200 excluded at full-text screening (no toxicity or therapeutic data). 257 articles yielded 748 unique chemicals.'},
+ {l:'Articles with a statistically significant effect',v:240,d:'17 excluded for statistically non-significant effects at every tested concentration. 240 articles support 682 chemicals.'},
+ {l:'Unique aquaculture chemicals after CTD and ECOTOX',v:690,d:'The 682 chemicals plus additional chemicals with relevant data from CTD (63 chemicals) and ECOTOX (142 chemicals) give 690 unique chemicals.',hot:1}
+];
+$('funnel').innerHTML=F.map((s,i)=>`<button type="button" class="fun" aria-pressed="${i===0}"><span class="bar" style="width:${Math.max(s.v/2351*100,3)}%"></span><span>${esc(s.l)}<b>${n0(s.v)}</b></span></button>`).join('');
+[...$('funnel').children].forEach((b,i)=>{b.onclick=()=>{[...$('funnel').children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');$('fdetail').textContent=F[i].d};});
+$('fdetail').textContent=F[0].d;
+$('funnel').children[5].style.borderColor='var(--buoy)';
+
+/* Composition */
+bars('types',[{n:'Compounds',v:359},{n:'Mixtures',v:317},{n:'Others (nanomaterials, macromolecules, minerals)',v:14}]);
+$('types').insertAdjacentHTML('afterend','<p class="cap">Of 339 compounds with structures: 328 organic, 11 inorganic.</p>');
+bars('pubs',[['1990–94',9],['1995–99',20],['2000–04',44],['2005–09',84],['2010–14',182],['2015–19',376],['2020–25',738]].map(a=>({n:a[0],v:a[1]})));
+bars('species',[{n:'Commercial aquaculture',v:45},{n:'Multiple purposes',v:14},{n:'Research only',v:8},{n:'Ornamental',v:2},{n:'Other',v:2}],{fmt:v=>`${v} (${(v/71*100).toFixed(1)}%)`});
+
+/* Regulation */
+const R={
+ 'Overview':{i:[['Any regulatory information',57],['Substances of concern (regulatory lists)',39],['In ASEAN monitoring lists',27],['Banned in ASEAN lists',8],['India banned shrimp antibiotics',7],['US FDA approved aquaculture drugs',5]],c:'India\'s list has 29 banned antibiotics; ASEAN has 12 monitoring lists across 8 countries (10 contained ReCAnt chemicals).'},
+ 'Banned by ASEAN country':{i:[['Brunei Darussalam',6],['Singapore',4],['Thailand',4],['Vietnam',4],['Myanmar',3],['Indonesia',2],['Malaysia',2],['Philippines',2]],c:'Counts of the 8 ASEAN-banned chemicals banned in each country.'},
+ 'Production volume':{i:[['US HPV list',48],['OECD HPV list',45],['Combined (>1 t/year, US + OECD)',50]],c:'High-production-volume lists.'},
+ 'Literature check':{i:[['No regulatory info in the articles',558],['Some regulatory status reported',47]],c:'605 of 690 chemicals had enough article coverage to assess; most reported statuses were "approved". Article-reported status may not match official sources.'},
+ 'PBMT':{i:[['PMT',37],['vPvM',6],['not PBT',1],['not vPvB',1]],c:'Persistence, mobility and toxicity assessments from ECHA PBT and NORMAN datasets (Figure 1D).'}
+};
+const rk=Object.keys(R);
+tabs('regtabs',rk,i=>{const r=R[rk[i]];bars('regchart',r.i.map(a=>({n:a[0],v:a[1]})));$('regcap').textContent=r.c;});
+
+/* Toxicity */
+const T={
+ 'Acute (LC50, EC50)':{i:[['Multiple effects',0.77],['Abnormal',2.24],['Mortality',2.59],['Immobile',4.45],['Equilibrium',30.43]],c:'Median concentration (ppm) for the top five acute endpoints. Log scale.'},
+ 'Chronic (NOEC, NOEL, LOEL)':{i:[['Length',0.12],['Survival',0.12],['Weight',0.53],['Mortality',0.90],['Immobile',1.00]],c:'Median concentration (ppm) for the top five chronic endpoints. Log scale.'}
+};
+const tk=Object.keys(T);
+tabs('toxtabs',tk,i=>{const t=T[tk[i]];bars('toxchart',t.i.map(a=>({n:a[0],v:a[1]})),{log:1,lo:0.05,hi:50,fmt:v=>v.toFixed(2)});$('toxcap').textContent=t.c;});
+
+/* Fate */
+bars('outdeg',[{n:'Atrazine',v:39},{n:'Ivermectin',v:25},{n:'Netilmicin',v:22}]);
+bars('indeg',[{n:'Acetaldehyde',v:10},{n:'Methanol',v:10},{n:'Formate',v:7}]);
+bars('corr',[{n:'logKow vs logS',v:0.70},{n:'logS vs log(BAF)',v:0.63},{n:'logS vs log(BCF)',v:0.53}],{max:1,fmt:v=>'r = −'+v.toFixed(2)});
+
+/* Food web */
+const W={
+ 'BCF':{s:[['120','nodes'],['348','edges'],['24','chemicals'],['47 / 39 / 10','prey / predators / both']],c:[['Irgarol',39],['Atrazine',29],['Chlorpyrifos',21],['Copper sulfate',21]],p:[['Micropterus salmoides',23],['Ictalurus punctatus',22],['Salmo trutta',22],['Anguilla anguilla',21],['Gadus morhua',21]],n:'Gammarus pulex has the highest betweenness; Cyprinus carpio is an intermediary on the most chemical-predator paths (72).'},
+ 'Acute toxicity':{s:[['440','nodes'],['2,460','edges'],['127','chemicals'],['244 / 38 / 31','prey / predators / both']],c:[['Dichlorvos',49],['Cypermethrin',47],['Irgarol',43]],p:[['Ictalurus punctatus',127]],n:'Raphidocelis subcapitata has the highest betweenness; Daphnia magna is an intermediary on the most paths (484). Gadus morhua shares the top predator rank.'},
+ 'Chronic toxicity':{s:[['434','nodes'],['2,365','edges'],['113','chemicals'],['251 / 40 / 30','prey / predators / both']],c:[['Simazine',55],['Malathion',53],['Azadirachtin',52],['Chlorpyrifos',52]],p:[['Ictalurus punctatus',100]],n:'The class Insecta has the highest betweenness; Oncorhynchus mykiss is an intermediary on the most paths (272). Gadus morhua and Oncorhynchus aguabonita share the top predator rank.'},
+ 'Acute, SSD-filtered':{s:[['298','nodes (from 326)'],['1,713','edges (from 2,031)'],['24','chemicals'],['164','sensitive edges removed']],c:[['Dichlorvos',49],['Chlorothalonil',37],['Copper sulfate',33]],p:[['Ictalurus punctatus',24],['Gadus morhua',24],['Oncorhynchus aguabonita',23],['Danio rerio',23],['Channa striata',22]],n:'Oncorhynchus mykiss (97 paths) and Cyprinus carpio (43) are the key intermediaries.'},
+ 'Chronic, SSD-filtered':{s:[['296','nodes (from 312)'],['1,736','edges (from 1,868)'],['20','chemicals'],['79','sensitive edges removed']],c:[['Simazine',55],['Malathion',55],['Atrazine',48],['Chlorpyrifos',48],['Carbaryl',45]],p:[['Ictalurus punctatus',20],['Carassius carassius',20],['Micropterus salmoides',20],['Oncorhynchus aguabonita',20],['Danio rerio',20]],n:'Plantae (78 paths) and Oncorhynchus mykiss (75) are the key intermediaries.'}
+};
+const wk=Object.keys(W);
+tabs('fwtabs',wk,i=>{const w=W[wk[i]];
+ $('fwstats').innerHTML=w.s.map(s=>`<div class="stat"><b style="font-size:1.25rem">${s[0]}</b><small>${esc(s[1])}</small></div>`).join('');
+ bars('fwchem',w.c.map(a=>({n:a[0],v:a[1]})),{max:60});
+ bars('fwpred',w.p.map(a=>({n:a[0],v:a[1],hot:1})),{max:i===1||i===2?(i===1?127:127):(i===0?30:30)});
+ $('fwcap').textContent=w.n;});
+</script>
+</body>
+</html>
