@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Integrative network-based construction of ecologically relevant computational adverse outcome pathways for organic mercury-induced toxicity</title>
+<meta name="description" content="Interactive summary of Madgaonkar et al. (2026), Environmental Toxicology and Chemistry 45(3), 731-747.">
+<style>
+:root{--bg:#f2f7f8;--panel:#fff;--ink:#0b2a3b;--mute:#4d6672;--tide:#137c8b;--brine:#cfe3e7;--buoy:#d9531e;--line:#c3d4d9}
+@media (prefers-color-scheme:dark){:root{--bg:#0a1a23;--panel:#10252f;--ink:#e6f0f3;--mute:#9db5bf;--tide:#4fc0d0;--brine:#1d3b47;--buoy:#ff875a;--line:#27434f}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Iowan Old Style",Palatino,Georgia,serif}
+button,nav{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--tide)}
+header{padding:56px 6vw 32px;max-width:1000px;margin:0 auto}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.01em}
+.cite{color:var(--mute);font-size:.9rem}
+.links a{display:inline-block;margin:10px 14px 0 0;font-family:system-ui,sans-serif;font-size:.9rem}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;justify-content:safe center;gap:4px;overflow-x:auto;padding:8px 6vw}
+nav a{white-space:nowrap;text-decoration:none;color:var(--mute);padding:6px 10px;border-radius:6px;font-size:.88rem}
+nav a:hover,nav a:focus-visible{background:var(--brine);color:var(--ink)}
+main{max-width:1000px;margin:0 auto;padding:0 6vw 80px}
+section{padding:44px 0 8px;border-bottom:1px solid var(--line)}
+h2{font-size:1.7rem;margin:0 0 6px}
+.lede{max-width:66ch;color:var(--mute);margin:0 0 22px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 24px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+button{cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 13px;font-size:.84rem}
+button[aria-pressed=true]{background:var(--tide);border-color:var(--tide);color:#fff}
+button:focus-visible{outline:2px solid var(--buoy);outline-offset:2px}
+.row{display:grid;grid-template-columns:minmax(110px,260px) 1fr 70px;gap:10px;align-items:center;margin:5px 0;font-family:system-ui,sans-serif;font-size:.86rem}
+.row .t{background:var(--brine);border-radius:4px;height:20px;overflow:hidden}
+.row .f{display:block;height:100%;background:var(--tide);border-radius:4px;transition:width .5s}
+.row.hot .f{background:var(--buoy)}
+.row .v{text-align:right;font-variant-numeric:tabular-nums}
+.row .n{overflow-wrap:anywhere}
+.cap{font-family:system-ui,sans-serif;font-size:.84rem;color:var(--mute);margin:10px 0 0}
+.fun{display:block;width:100%;text-align:left;border-radius:8px;border:1px solid var(--line);padding:0;margin:6px 0;background:var(--panel);position:relative;overflow:hidden;min-height:44px}
+.fun .bar{position:absolute;inset:0 auto 0 0;background:var(--brine);transition:width .5s}
+.fun[aria-pressed=true]{border-color:var(--tide);border-width:2px;color:var(--ink)}
+.fun[aria-pressed=true] .bar{background:var(--tide);opacity:.35}
+.fun span{position:relative;display:flex;justify-content:space-between;gap:12px;padding:10px 14px;font-size:.92rem}
+.fun b{font-variant-numeric:tabular-nums}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 24px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat b{display:block;font:700 1.6rem/1.1 system-ui,sans-serif;color:var(--tide)}
+.stat small{font-family:system-ui,sans-serif;color:var(--mute);font-size:.8rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:760px){.two{grid-template-columns:1fr}.row{grid-template-columns:110px 1fr 60px}}
+h3{font:600 1rem system-ui,sans-serif;margin:0 0 10px}
+.chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px;font-family:system-ui,sans-serif;font-size:.82rem}
+.chip{border:1px solid var(--line);border-radius:6px;padding:4px 9px;background:var(--brine)}
+.chip.mie{background:var(--tide);border-color:var(--tide);color:#fff}
+.chip.ao{background:var(--buoy);border-color:var(--buoy);color:#fff}
+.arr{color:var(--mute)}
+ul.lim{padding-left:1.1em;max-width:70ch}
+footer{max-width:1000px;margin:0 auto;padding:24px 6vw 60px;color:var(--mute);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>Computational AOPs for organic mercury toxicity in fish</h1>
+<p class="cite">Madgaonkar S.R., Chivukula N., Garisetti V., Marigoudar S.R., Sharma K.V., Samal A. (2026). <i>Environmental Toxicology and Chemistry</i> 45(3), 731–747.</p>
+<p style="max-width:66ch">Adverse outcome pathways (AOPs) are slow to develop by hand. This study builds <b>computational AOPs (cAOPs)</b> from existing data: curated toxicity endpoints for 124 organic mercury compounds, molecular docking against zebrafish proteins, and event relationships from AOP-Wiki and the literature, then filters network paths against AOP definitions. It proposes four novel cAOPs.</p>
+<div class="links"><a href="https://doi.org/10.1093/etojnl/vgag026">Paper (DOI)</a></div>
+</header>
+<nav aria-label="Sections"><a href="#chem">Compounds</a><a href="#dock">Docking</a><a href="#net">Toxicity network</a><a href="#paths">Path filtering</a><a href="#caop">Proposed cAOPs</a><a href="#limits">Limitations</a></nav>
+<main>
+
+<section id="chem">
+<h2>Compounds, endpoints and targets</h2>
+<p class="lede">Organic mercury compounds and fish-specific data were compiled from CTD and ECOTOX, and checked against 317 curated AOPs from AOP-Wiki.</p>
+<div class="stats">
+<div class="stat"><b>144 → 124</b><small>unique chemicals → organic mercury compounds (80 from CTD, 66 from ECOTOX)</small></div>
+<div class="stat"><b>80</b><small>unfragmented compounds used for docking</small></div>
+<div class="stat"><b>310</b><small>fish toxicity endpoints (CTD 13 GO terms + 42 MeSH; ECOTOX 238; plus docking)</small></div>
+<div class="stat"><b>24</b><small>fish protein targets (14 CTD, 11 ECOTOX)</small></div>
+</div>
+<p>AOP-Wiki (October 2024) held 487 AOPs with 1,485 key events (KEs) and 2,035 key event relationships (KERs). A complete, connected subset of 317 curated AOPs (1,023 KEs, 1,573 KERs) was used as the reference.</p>
+</section>
+
+<section id="dock">
+<h2>Docking to find molecular initiating events</h2>
+<p class="lede">Because the 24 targets came from many fish species, zebrafish orthologs were found and docked with AutoDock Vina. A compound counted as a hit if its predicted binding energy was equal to or lower than the reference ligand's and its pose sat in the predicted pocket.</p>
+<div class="box"><div class="tabs" id="dtabs" role="group" aria-label="View"></div><div id="dbars"></div><p class="cap" id="dcap"></p></div>
+<p>16 zebrafish proteins docked successfully with 44 organic mercury compounds. None of these binding events matched existing molecular initiating events (MIEs) in AOP-Wiki, so they were added as 16 novel MIEs. The authors present them descriptively, as potential interactions rather than established toxic consequences, because most structures are predicted.</p>
+</section>
+
+<section id="net">
+<h2>Building the toxicity network</h2>
+<p class="lede">Endpoints were standardized to triplets of AOP-Wiki KE, Gene Ontology term and MeSH identifier, then linked by KERs and literature evidence. Triplets sharing an identifier were merged into supernodes to remove redundancy. Select a stage.</p>
+<div class="box"><div id="funnel"></div><p id="fdetail" class="cap" aria-live="polite"></p></div>
+</section>
+
+<section id="paths">
+<h2>Filtering candidate paths</h2>
+<p class="lede">Within the largest connected component, directed paths between MIE-like and AO-like supernodes were checked against AOP development guidelines. Select a stage.</p>
+<div class="box"><div id="pfun"></div><p id="pdetail" class="cap" aria-live="polite"></p></div>
+<div class="two">
+<div class="box"><h3>Node- and edge-level criteria</h3><div id="crit"></div></div>
+<div class="box"><h3>Novelty score</h3><p style="margin:0">Novelty = 1 − the largest share of a path's KERs that overlap any single curated AOP. Paths were ranked by it, and the four most novel became the candidate cAOPs. They form a network of 12 supernodes (4 without a KE) and 11 superedges, 5 of them novel links.</p></div>
+</div>
+</section>
+
+<section id="caop">
+<h2>The four proposed cAOPs</h2>
+<p class="lede">All four share the same intermediate events and differ only in the starting event (GPx binding or altered metallothionein levels) and the final outcome (neurologic manifestations or dysbiosis). Select one to see its chain and the weight of evidence (WoE) for each link.</p>
+<div class="box"><div class="tabs" id="ctabs" role="group" aria-label="cAOP"></div><div id="cchain"></div><h3>Evidence for each link</h3><div id="ker"></div><p class="cap" id="ccap"></p></div>
+<p>Of the five novel links, three had Moderate WoE and two (liver injury to dysbiosis, and liver injury to neurologic manifestations) had Low WoE. Each cAOP had a cumulative WoE of High, meaning at least half its KERs were rated High. Several of the cited fish studies used other stressors, consistent with the stressor-agnostic nature of AOPs; the authors note that the mechanisms were also observed with other stressors.</p>
+<div class="box"><h3>Docking example: glutathione peroxidase (GPx)</h3><div id="gpx"></div><p class="cap">26 compounds bound zebrafish GPx. Hydrargaphen (CID 16683105) formed hydrogen bonds with Tyr9, Glu162 and Glu164; the reference ligand (BDB 51551531) with Tyr9 and Lys122. More negative means stronger predicted binding.</p></div>
+</section>
+
+<section id="limits">
+<h2>Limitations stated by the authors</h2>
+<ul class="lim">
+<li>Endpoints came only from curated toxicology databases, which may miss relevant data.</li>
+<li>Docking used predicted zebrafish structures and should be interpreted with caution.</li>
+<li>The approach relies on AOP-Wiki, where many AOPs are under development and not endorsed.</li>
+<li>Endpoint harmonization and literature mining without organism filters needed substantial manual review, limiting automation.</li>
+<li>Even with Bradford-Hill-based WoE, causality for the KERs is hard to establish. The cAOPs need experimental validation before submission to AOP-Wiki.</li>
+<li>The method's applicability depends on the availability and quality of mechanistic data in public databases.</li>
+</ul>
+</section>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function bars(id,items,o={}){
+  const max=o.max||Math.max(...items.map(i=>i.v));
+  $(id).innerHTML=items.map(i=>`<div class="row${i.hot?' hot':''}"><span class="n">${esc(i.n)}</span><span class="t"><span class="f" style="width:${i.v/max*100}%"></span></span><span class="v">${o.fmt?o.fmt(i.v):i.v}</span></div>`).join('');
+}
+function tabs(id,names,cb,start=0){
+  const el=$(id);
+  el.innerHTML=names.map((n,i)=>`<button type="button" aria-pressed="${i===start}">${esc(n)}</button>`).join('');
+  [...el.children].forEach((b,i)=>b.onclick=()=>{[...el.children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');cb(i)});
+  cb(start);
+}
+function funnel(id,did,F,max){
+  $(id).innerHTML=F.map((s,i)=>`<button type="button" class="fun" aria-pressed="${i===0}"><span class="bar" style="width:${Math.max(s.v/max*100,3)}%"></span><span>${esc(s.l)}<b>${s.v.toLocaleString('en-US')}</b></span></button>`).join('');
+  [...$(id).children].forEach((b,i)=>b.onclick=()=>{[...$(id).children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');$(did).textContent=F[i].d});
+  $(did).textContent=F[0].d;
+}
+
+/* Docking */
+tabs('dtabs',['Successful docking hits','Target structure sources'],i=>{
+ if(!i){bars('dbars',[['Succinate dehydrogenase flavoprotein subunit',38],['Heat shock protein 60',38],['Glutathione peroxidase (GPx)',26],['ATP synthase subunit beta',1],['Alkaline phosphatase',1]].map(a=>({n:a[0],v:a[1],hot:a[0].startsWith('Gluta')})),{max:44});$('dcap').textContent='Organic mercury compounds docking successfully, per protein (selected proteins; 44 compounds in total across 16 proteins).';}
+ else{bars('dbars',[{n:'AlphaFold DB (predicted)',v:20},{n:'ColabFold de novo (predicted)',v:3},{n:'Protein Data Bank (experimental)',v:1}],{max:20});$('dcap').textContent='24 targets in total. All 24 structures passed Ramachandran validation. Reference ligands from BindingDB were found for 17 of the 24 proteins, justified by ortholog sequence and structure comparison.';}
+});
+bars('gpx',[{n:'Hydrargaphen (CID 16683105)',v:7.987,hot:1},{n:'Reference ligand (BDB 51551531)',v:5.749}],{max:8,fmt:v=>'−'+v.toFixed(3)+' kcal/mol'});
+
+/* Network funnel */
+funnel('funnel','fdetail',[
+ {l:'Fish toxicity endpoints',v:310,d:'From CTD, ECOTOX and the docking investigation.'},
+ {l:'Standardized endpoints (nodes)',v:384,d:'Mapped to 143 KEs (including 16 novel MIEs), 102 Gene Ontology terms and 139 MeSH identifiers.'},
+ {l:'Toxicity network nodes (263 edges)',v:457,d:'Edges came from 53 AOP-Wiki KERs (63 nodes), 860 paths in the curated AOP network linking 64 disconnected nodes (209 KERs, 137 KEs; 179 KERs and 73 KEs novel), and 31 literature-derived edges (33 nodes).'},
+ {l:'Supernodes (243 superedges)',v:197,d:'Functionally similar nodes were grouped into 197 supernodes and their edges consolidated into 243 superedges, which reduced redundancy and exposed links previously missed.'},
+ {l:'Largest connected component (235 superedges)',v:123,d:'Used for pathway discovery. It holds 30 MIE-like and 36 AO-like supernodes, labels that show only the presence of an MIE or AO node at this stage.'}
+],457);
+
+/* Path funnel */
+funnel('pfun','pdetail',[
+ {l:'Paths meeting node- and edge-level criteria',v:4865,d:'Involving 20 MIE-like and 14 AO-like supernodes.'},
+ {l:'Paths with High MIE and AO scores',v:973,d:'Involving 10 MIE-like and 11 AO-like supernodes. These were candidate cAOPs consistent with AOP definitions.'},
+ {l:'Most novel paths (candidate cAOPs)',v:4,d:'The four paths with the highest novelty score were assessed against published fish literature and proposed as cAOPs.'}
+],4865);
+$('crit').innerHTML=['At least 4 distinct levels of biological organization','No skipped levels of biological organization','No reversals in the progression of levels','MIE score High (molecular events); AO score High'].map(t=>`<div class="chain"><span class="chip">${esc(t)}</span></div>`).join('')+'<p class="cap">Paths were 4 to 13 nodes long. Criteria follow the AOP-Wiki Developers\' Handbook; mixed-level supernodes were evaluated node by node.</p>';
+
+/* cAOPs */
+const K=[['Altered metallothionein → DNA damage',2],['Binding to GPx → DNA damage',2],['DNA damage → cell injury/death',3],['Cell injury/death → proinflammatory mediators',3],['Proinflammatory mediators → ROS',2],['ROS → mitochondrial membrane potential down',3],['Membrane potential down → mitochondrial dysfunction',3],['Mitochondrial dysfunction → necrosis',3],['Necrosis → liver injury',2],['Liver injury → dysbiosis',1],['Liver injury → neurologic manifestations',1]];
+const mid=[2,3,4,5,6,7,8], N=new Set([0,1,8,9,10]);
+const CA=[
+ {n:'cAOP 1: GPx binding → neurologic',s:1,o:10,mie:'Binding to glutathione peroxidase',ao:'Neurologic manifestations',c:'GPx inhibition by organic mercury is supported by in vitro and in silico work; neurologic signs include reduced appetite, abnormal movement, lethargy, equilibrium loss and erratic swimming.'},
+ {n:'cAOP 2: GPx binding → dysbiosis',s:1,o:9,mie:'Binding to glutathione peroxidase',ao:'Dysbiosis',c:'Dysbiosis is characterized by altered gut microbiota composition, lower diversity and more pathogenic bacteria.'},
+ {n:'cAOP 3: altered MT → neurologic',s:0,o:10,mie:'Altered metallothionein levels',ao:'Neurologic manifestations',c:'When metal burden overwhelms metallothionein (MT), ROS can accumulate and damage DNA.'},
+ {n:'cAOP 4: altered MT → dysbiosis',s:0,o:9,mie:'Altered metallothionein levels',ao:'Dysbiosis',c:'Dysbiosis is an alternate AO reached through the same oxidative liver injury route.'}];
+const chip=(t,c)=>`<span class="chip ${c||''}">${esc(t)}</span>`;
+const mids=['Increased DNA damage','Increased cell injury/death','Increased proinflammatory mediators','Increased reactive oxygen species','Decreased mitochondrial membrane potential','Mitochondrial dysfunction','Increased necrosis','Liver injury (AO)'];
+tabs('ctabs',CA.map(c=>c.n),i=>{const c=CA[i];
+ $('cchain').innerHTML=`<div class="chain">${chip(c.mie,'mie')}${mids.map(m=>`<span class="arr">→</span>${chip(m)}`).join('')}<span class="arr">→</span>${chip(c.ao,'ao')}</div>`;
+ const ids=[c.s,...mid,8,c.o].filter((v,j,a)=>a.indexOf(v)===j);
+ bars('ker',ids.map(j=>({n:K[j][0]+(N.has(j)?' (novel)':''),v:K[j][1],hot:K[j][1]===1})),{max:3,fmt:v=>['','Low','Moderate','High'][v]});
+ const hi=ids.filter(j=>K[j][1]===3).length;
+ $('ccap').textContent=`${hi} of ${ids.length} links are High. ${c.c} These are computational proposals supported by published fish studies, not validated pathways.`;});
+</script>
+</body>
+</html>

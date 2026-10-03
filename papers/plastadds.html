@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leveraging integrative toxicogenomic approach towards development of stressor-centric adverse outcome pathway networks for plastic additives</title>
+<meta name="description" content="Interactive summary of Sahoo et al. (2024), Archives of Toxicology 98, 3299-3321.">
+<style>
+:root{--bg:#f2f7f8;--panel:#fff;--ink:#0b2a3b;--mute:#4d6672;--tide:#137c8b;--brine:#cfe3e7;--buoy:#d9531e;--line:#c3d4d9}
+@media (prefers-color-scheme:dark){:root{--bg:#0a1a23;--panel:#10252f;--ink:#e6f0f3;--mute:#9db5bf;--tide:#4fc0d0;--brine:#1d3b47;--buoy:#ff875a;--line:#27434f}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:56px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Iowan Old Style",Palatino,Georgia,serif}
+button,nav{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--tide)}
+header{padding:56px 6vw 32px;max-width:1000px;margin:0 auto}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 14px;letter-spacing:-.01em}
+.cite{color:var(--mute);font-size:.9rem}
+.links a{display:inline-block;margin:10px 14px 0 0;font-family:system-ui,sans-serif;font-size:.9rem}
+nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;justify-content:safe center;gap:4px;overflow-x:auto;padding:8px 6vw}
+nav a{white-space:nowrap;text-decoration:none;color:var(--mute);padding:6px 10px;border-radius:6px;font-size:.88rem}
+nav a:hover,nav a:focus-visible{background:var(--brine);color:var(--ink)}
+main{max-width:1000px;margin:0 auto;padding:0 6vw 80px}
+section{padding:44px 0 8px;border-bottom:1px solid var(--line)}
+h2{font-size:1.7rem;margin:0 0 6px}
+.lede{max-width:66ch;color:var(--mute);margin:0 0 22px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:0 0 24px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+button{cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 13px;font-size:.84rem}
+button[aria-pressed=true]{background:var(--tide);border-color:var(--tide);color:#fff}
+button:focus-visible{outline:2px solid var(--buoy);outline-offset:2px}
+.row{display:grid;grid-template-columns:minmax(110px,250px) 1fr 64px;gap:10px;align-items:center;margin:5px 0;font-family:system-ui,sans-serif;font-size:.86rem}
+.row .t{background:var(--brine);border-radius:4px;height:20px;overflow:hidden}
+.row .f{display:block;height:100%;background:var(--tide);border-radius:4px;transition:width .5s}
+.row.hot .f{background:var(--buoy)}
+.row .v{text-align:right;font-variant-numeric:tabular-nums}
+.row .n{overflow-wrap:anywhere}
+.cap{font-family:system-ui,sans-serif;font-size:.84rem;color:var(--mute);margin:10px 0 0}
+.fun{display:block;width:100%;text-align:left;border-radius:8px;border:1px solid var(--line);padding:0;margin:6px 0;background:var(--panel);position:relative;overflow:hidden;min-height:44px}
+.fun .bar{position:absolute;inset:0 auto 0 0;background:var(--brine);transition:width .5s}
+.fun[aria-pressed=true]{border-color:var(--tide);border-width:2px;color:var(--ink)}
+.fun[aria-pressed=true] .bar{background:var(--tide);opacity:.35}
+.fun span{position:relative;display:flex;justify-content:space-between;gap:12px;padding:10px 14px;font-size:.92rem}
+.fun b{font-variant-numeric:tabular-nums}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0 0 24px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat b{display:block;font:700 1.6rem/1.1 system-ui,sans-serif;color:var(--tide)}
+.stat small{font-family:system-ui,sans-serif;color:var(--mute);font-size:.8rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:760px){.two{grid-template-columns:1fr}.row{grid-template-columns:100px 1fr 54px}}
+h3{font:600 1rem system-ui,sans-serif;margin:0 0 10px}
+.chain{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px;font-family:system-ui,sans-serif;font-size:.82rem}
+.chip{border:1px solid var(--line);border-radius:6px;padding:4px 9px;background:var(--brine)}
+.chip.mie{background:var(--tide);border-color:var(--tide);color:#fff}
+.chip.ao{background:var(--buoy);border-color:var(--buoy);color:#fff}
+.arr{color:var(--mute)}
+ul.lim{padding-left:1.1em;max-width:70ch}
+footer{max-width:1000px;margin:0 auto;padding:24px 6vw 60px;color:var(--mute);font-size:.85rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header>
+<h1>Stressor-centric AOP networks for plastic additives</h1>
+<p class="cite">Sahoo A.K., Chivukula N., Madgaonkar S.R., Ramesh K., Marigoudar S.R., Sharma K.V., Samal A. (2024). <i>Archives of Toxicology</i> 98, 3299–3321.</p>
+<p style="max-width:66ch">Plastic additives are not covalently bound and can leach out over a plastic's life cycle. The study curates <b>6,470 plastic additives</b>, links <b>1,287</b> of them to <b>322 adverse outcome pathways (AOPs)</b> using five toxicogenomic and endpoint resources, and explores human and aquatic toxicity pathways for benzo[a]pyrene, bisphenol A (BPA) and DEHP.</p>
+<div class="links"><a href="https://doi.org/10.1007/s00204-024-03825-z">Paper (open access, CC BY 4.0)</a><a href="https://cb.imsc.res.in/saopadditives/">Associated website</a></div>
+</header>
+<nav aria-label="Sections"><a href="#chem">Additives</a><a href="#hazard">Use and hazard</a><a href="#ke">Key events</a><a href="#net">AOP network</a><a href="#top">Top additives</a><a href="#cases">Case studies</a><a href="#limits">Limitations</a></nav>
+<main>
+
+<section id="chem">
+<h2>From 13,640 chemicals to the network</h2>
+<p class="lede">Chemicals came from the UNEP report <i>Chemicals in Plastics</i>; a chemical counted as an additive if it had at least one annotated additive function. Select a stage.</p>
+<div class="box"><div id="funnel"></div><p id="fdetail" class="cap" aria-live="polite"></p></div>
+</section>
+
+<section id="hazard">
+<h2>Where additives are used, and why it matters</h2>
+<div class="stats">
+<div class="stat"><b>3,217</b><small>of 6,470 serve several functions</small></div>
+<div class="stat"><b>3,675</b><small>are colorants, the most common function</small></div>
+<div class="stat"><b>2,084</b><small>are high-production-volume chemicals</small></div>
+<div class="stat"><b>204</b><small>detected as xenobiotics in 37 human biospecimens</small></div>
+</div>
+<div class="two">
+<div class="box"><h3>Presence in use sectors (of 6,470)</h3><div id="use"></div><p class="cap">Only 4,309 additives could be placed in any of the ten priority use sectors. Synthetic textiles had just 6 additives and no human biospecimen detections.</p></div>
+<div class="box"><h3>Regulatory and hazard flags</h3><div id="reg"></div><p class="cap">The 154 EDCs (endocrine-disrupting chemicals, from DEDuCT) and 101 potential carcinogens (IARC) are among the high-production-volume additives.</p></div>
+</div>
+</section>
+
+<section id="ke">
+<h2>Linking additives to key events</h2>
+<p class="lede">Endpoints were mapped to key events (KEs) in AOP-Wiki, giving 688 KEs for 1,314 additives. Cytotoxicity-associated bursts in ToxCast were excluded before mapping. Toggle the view.</p>
+<div class="box"><div class="tabs" id="ketabs" role="group" aria-label="View"></div><div id="kebars"></div><p class="cap" id="kecap"></p></div>
+</section>
+
+<section id="net">
+<h2>The plastic additives–AOP network</h2>
+<p class="lede">An additive is linked to an AOP if it shares at least one KE with it. Links are graded by relevance: Level 1 (a KE), 2 (an AO), 3 (an MIE) or 5 (an MIE and AO joined by a directed path). Level 4 never occurs, since it always meets Level 5.</p>
+<div class="stats">
+<div class="stat"><b>1,287 / 322</b><small>additives / high-confidence AOPs</small></div>
+<div class="stat"><b>46,243</b><small>additive–AOP links</small></div>
+<div class="stat"><b>37 of 1,287</b><small>additives with any AOP link recorded in AOP-Wiki (27 AOPs)</small></div>
+<div class="stat"><b>40</b><small>AOPs with a cancer outcome, the most common disease class</small></div>
+</div>
+<div class="box"><div class="tabs" id="lvltabs" role="group" aria-label="Scope"></div><div id="lvl"></div><p class="cap" id="lvlcap"></p></div>
+<p>AOPs were classified by outcome into 26 disease classes using the Disease Ontology; 125 of 322 could not be classified. For stricter relevance (Level 5, coverage ≥ 0.4), 107 additives link to 88 AOPs through 526 links. Twenty additives are linked to every KE (coverage 1.0) in 15 AOPs, links not otherwise documented in AOP-Wiki.</p>
+</section>
+
+<section id="top">
+<h2>Additives with the most highly relevant AOPs</h2>
+<div class="box"><div class="tabs" id="toptabs" role="group" aria-label="Measure"></div><div id="topbars"></div><p class="cap">Benzo[a]pyrene is annotated as an additive in the UNEP report, but the authors note evidence that it is more likely a contaminant or byproduct (from extender oils or carbon black). Of these 15 additives, 14 are documented EDCs and 10 are IARC carcinogens. AOPs 263, 264, 265, 267 and 268 are shared by all 15; they share one MIE (decreased coupling of oxidative phosphorylation) and one AO (decreased growth).</p></div>
+</section>
+
+<section id="cases">
+<h2>Case studies: three well-known pollutants</h2>
+<p class="lede">For each chemical, highly relevant AOPs were assembled into an AOP network, and one human and one aquatic pathway were explored against published evidence. Pathways are potential routes assembled from the literature.</p>
+<div class="box"><div class="tabs" id="ctabs" role="group" aria-label="Chemical"></div><div id="cstats" class="stats" style="margin-top:6px"></div>
+<h3 id="h1"></h3><div id="p1"></div><p class="cap" id="n1"></p>
+<h3 id="h2"></h3><div id="p2"></div><p class="cap" id="n2"></p></div>
+</section>
+
+<section id="limits">
+<h2>Limitations stated by the authors</h2>
+<ul class="lim">
+<li>The UNEP functional annotations can be inaccurate (text mining lacked context sensitivity), so some chemicals may be misclassified as additives.</li>
+<li>Only 4,309 of 6,470 additives could be placed in use sectors, and only 1,287 could be linked to AOPs, because exposure studies are scarce.</li>
+<li>The data are mostly mammalian, which limits exploration of ecotoxicological events; 197 of the 322 AOPs capture human-relevant outcomes.</li>
+<li>Network links show associations through shared KEs, not demonstrated causation.</li>
+<li>Future work could use larger curated chemical lists, more gene, pathway and species data, and non-human endpoints.</li>
+</ul>
+</section>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function bars(id,items,o={}){
+  const max=o.max||Math.max(...items.map(i=>i.v));
+  $(id).innerHTML=items.map(i=>`<div class="row${i.hot?' hot':''}"><span class="n">${esc(i.n)}</span><span class="t"><span class="f" style="width:${i.v/max*100}%"></span></span><span class="v">${o.fmt?o.fmt(i.v):i.v}</span></div>`).join('');
+}
+function tabs(id,names,cb,start=0){
+  const el=$(id);
+  el.innerHTML=names.map((n,i)=>`<button type="button" aria-pressed="${i===start}">${esc(n)}</button>`).join('');
+  [...el.children].forEach((b,i)=>b.onclick=()=>{[...el.children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');cb(i)});
+  cb(start);
+}
+const n0=v=>v.toLocaleString('en-US');
+const stats=(id,a)=>$(id).innerHTML=a.map(s=>`<div class="stat"><b style="font-size:1.25rem">${esc(s[0])}</b><small>${esc(s[1])}</small></div>`).join('');
+
+/* Funnel */
+const F=[
+ {l:'Unique chemicals in the UNEP annex',v:13640,d:'Over 13,000 chemicals found in plastics; synonymous CAS numbers were merged through CAS Common Chemistry to remove duplicates.'},
+ {l:'Plastic additives',v:6470,d:'Chemicals with at least one additive function after standardizing functions from published sources. Chemicals annotated only as non-intentionally added substances were excluded.'},
+ {l:'Additives with associated KEs',v:1314,d:'688 KEs in AOP-Wiki were associated with 1,314 additives by combining ToxCast, CTD, DEDuCT, NeurotoxKb and AOP-Wiki data.'},
+ {l:'Additives in the stressor–AOP network',v:1287,d:'Linked to 322 of the 328 high-confidence AOPs (complete, connected AOPs with a directed MIE-to-AO path).'},
+ {l:'Highly relevant (Level 5, coverage ≥ 0.4)',v:107,d:'107 additives linked to 88 AOPs through 526 links.'}
+];
+$('funnel').innerHTML=F.map((s,i)=>`<button type="button" class="fun" aria-pressed="${i===0}"><span class="bar" style="width:${Math.max(s.v/13640*100,3)}%"></span><span>${esc(s.l)}<b>${n0(s.v)}</b></span></button>`).join('');
+[...$('funnel').children].forEach((b,i)=>b.onclick=()=>{[...$('funnel').children].forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');$('fdetail').textContent=F[i].d});
+$('fdetail').textContent=F[0].d;
+
+/* Use and hazard */
+bars('use',[{n:'In any priority use sector',v:4309},{n:'Packaging incl. food contact',v:3963},{n:'Toys and children\'s products',v:162},{n:'Synthetic textiles',v:6}],{max:6470,fmt:n0});
+bars('reg',[{n:'High production volume',v:2084},{n:'Prohibited under REACH',v:412},{n:'Very high concern (ECHA)',v:215},{n:'Known EDCs (of the HPV)',v:154,hot:1},{n:'Potential carcinogens (of the HPV)',v:101,hot:1}],{max:2084,fmt:n0});
+
+/* KE sources */
+const K=[['CTD phenotypes',307,241],['AOP-Wiki stressor data',178,42],['DEDuCT',165,203],['CTD diseases',157,232],['ToxCast',115,1129],['NeurotoxKb',25,92]];
+const kc=['KEs identified per source. A KE can be found through several sources, so the sources overlap and total more than 688.','Plastic additives with at least one endpoint mapped, per source. ToxCast covers the most additives (after 212 assay endpoints were mapped to KEs).'];
+tabs('ketabs',['KEs per source','Additives per source'],i=>{bars('kebars',K.map(r=>({n:r[0],v:r[i+1]})).sort((a,b)=>b.v-a.v),{fmt:n0});$('kecap').textContent=kc[i];});
+
+/* Levels */
+const L=[
+ {n:'Whole network',d:[['Level 1 (1,155 additives, 288 AOPs)',27189],['Level 2 (345 additives, 241 AOPs)',4236],['Level 3 (1,152 additives, 139 AOPs)',14187],['Level 5 (118 additives, 98 AOPs)',631]],c:'46,243 links in total.'},
+ {n:'Toys and children\'s products',d:[['Level 1 (148 additives, 265 AOPs)',4696],['Level 2 (75 additives, 170 AOPs)',1460],['Level 3 (144 additives, 117 AOPs)',1928],['Level 5 (30 additives, 58 AOPs)',216]],c:'This sector has 162 additives, 301 AOPs and 8,300 links; cancer is the most represented disease category among Level 5 AOPs across sectors.'}];
+tabs('lvltabs',L.map(l=>l.n),i=>{bars('lvl',L[i].d.map(a=>({n:a[0],v:a[1],hot:a[0].startsWith('Level 5')})),{max:i?4696:27189,fmt:n0});$('lvlcap').textContent=L[i].c+' Level 5 (orange) is the strongest relevance.';});
+
+/* Top additives */
+const T=[['Benzo[a]pyrene',28,28],['Bisphenol A',27,26],['DEHP',19,17],['Arsenic',16,13],['Ethanol',15,13],['Perfluorooctanoic acid',14,14],['Triclosan',14,13],['Cadmium',14,11],['Cadmium chloride',13,12],['Lead',13,10],['Acrylamide',13,13],['Pentachlorophenol',12,11],['Manganese',11,9],['Oxygen',11,11],['Lead acetate',11,11]];
+tabs('toptabs',['Highly relevant AOPs','Of these, not in AOP-Wiki'],i=>bars('topbars',T.map(r=>({n:r[0],v:r[i+1],hot:r[0]==='Benzo[a]pyrene'})),{max:28}));
+
+/* Case studies */
+const C=[
+ {n:'Benzo[a]pyrene',s:[['28','highly relevant AOPs'],['9 / 6','High / Moderate cumulative WoE'],['18','AOPs in the largest component'],['66 / 99','KEs / KERs, directed network']],
+  h1:'Human: liver fibrosis',p1:[['Activation of AhR (MIE)','mie'],'NF-κB / IL-6 signaling','Oxidative stress','Lysosomal disruption','Dysfunctional autophagy',['Liver fibrosis','ao']],n1:'Evidence from human cell lines and rodents. AhR activation has the highest out-degree (16) in the directed network; 36 of 66 KEs were tied to B[a]P through the data integration, and the other 30 were supported by literature screening.',
+  h2:'Aquatic: early life stage mortality (AOP 455)',p2:[['AhR activation (MIE)','mie'],'AhR–ARNT dimerization','slincR recruited to sox9b, repressing it','Altered chondrogenesis genes','Impaired craniofacial development',['Early life stage mortality','ao']],n2:'Based on zebrafish and clam studies.'},
+ {n:'Bisphenol A',s:[['27','highly relevant AOPs'],['10 / 6','High / Moderate cumulative WoE'],['10','AOPs in the largest component'],['55 / 72','KEs / KERs, directed network']],
+  h1:'Human: neurodegeneration (AOP 260)',p1:[['CYP2E1 activation (MIE)','mie'],'Reactive oxygen species','Oxidative stress','Unfolded protein response','Apoptosis',['Neurodegeneration','ao']],n1:'BPA induces CYP2E1 in rat liver and kidney cells and crosses the blood–brain barrier, but there is no direct evidence of CYP2E1 induction by BPA in the brain; the link rests on other xenobiotic stress studies in neurons.',
+  h2:'Aquatic: reproductive failure (AOP 207)',p2:[['NADPH oxidase activation (MIE)','mie'],'Oxidative stress (ROS)','Increased p38 MAPK','Ovarian inflammation and oocyte apoptosis',['Reproductive failure','ao']],n2:'AOP 207 is documented for C. elegans; the authors found supporting evidence in aquatic species, including zebrafish ovary.'},
+ {n:'DEHP',s:[['19','highly relevant AOPs'],['6 / 6','High / Moderate cumulative WoE'],['5','AOPs in the largest component (C1)'],['20 / 29 and 20 / 23','KEs / KERs, components C2 and C3']],
+  h1:'Human: liver dysfunction (AOP 463)',p1:[['Excess ROS','mie'],'Oxidative stress in hepatocytes','Mitochondrial dysfunction and inflammation','Hepatocyte damage',['Liver dysfunction','ao']],n1:'AOP 463 was developed for silica nanoparticles; the DEHP evidence is from rat and mouse hepatocytes. The five AOPs in C1 share one MIE and one AO (decreased growth) and were developed by a single group.',
+  h2:'Aquatic: decreased population growth (AOP 323)',p2:[['MEHP activates PPARα (MIE)','mie'],'Reduced cholesterol','Reduced 11-ketotestosterone','Impaired spermatogenesis','Fewer viable offspring',['Decreased population growth','ao']],n2:'AOP 323 has High cumulative WoE and applies to teleost fish; DEHP is metabolized to MEHP, which activates PPARα.'}];
+const chain=a=>`<div class="chain">${a.map((x,i)=>(i?'<span class="arr">→</span>':'')+`<span class="chip ${Array.isArray(x)?x[1]:''}">${esc(Array.isArray(x)?x[0]:x)}</span>`).join('')}</div>`;
+tabs('ctabs',C.map(c=>c.n),i=>{const c=C[i];stats('cstats',c.s);$('h1').textContent=c.h1;$('p1').innerHTML=chain(c.p1);$('n1').textContent=c.n1;$('h2').textContent=c.h2;$('p2').innerHTML=chain(c.p2);$('n2').textContent=c.n2;});
+</script>
+</body>
+</html>
