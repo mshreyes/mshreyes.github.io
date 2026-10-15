@@ -1385,19 +1385,14 @@ section[id] {
 /* ==========================================================
    SUBTLE LINK TO SIDE PROJECTS (end of index)
    ========================================================== */
-
 .sideprojects-link {
-
-    margin-top: 2.5rem;
-
+    display: block;
+    width: 100%;
+    margin: 2.5rem auto 0;
     text-align: center;
-
     font-size: 13pt;
-
     color: var(--text-muted);
-
     opacity: .85;
-
 }
 
 .sideprojects-link a {
