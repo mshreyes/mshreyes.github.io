@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noai">
+  <meta name="googlebot" content="noai">
+  <meta name="robots" content="noarchive,noimageindex">
+  <meta name="tdm-reservation" content="1">
+
+  <title>
+    Side Projects · Shreyes Madgaonkar
+  </title>
+
+  <meta name="description"
+    content="Side projects by Shreyes Madgaonkar: computational toxicology tools, open science resources, self-paced courses, and exploratory code.">
+
+  <meta name="author" content="Shreyes Madgaonkar">
+
+  <meta property="og:title" content="Side Projects · Shreyes Madgaonkar">
+
+  <meta property="og:description" content="Tools, resources, and courses built on the side">
+
+  <meta property="og:type" content="website">
+
+  <meta name="theme-color" content="#0f766e">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <div class="container header-inner">
+
+    <a href="index.html#about" class="logo" aria-label="Home">
+
+      <svg class="logo-mark" viewBox="0 0 100 100">
+
+        <circle cx="50" cy="50" r="8" />
+
+        <circle cx="50" cy="15" r="5" />
+        <circle cx="20" cy="65" r="5" />
+        <circle cx="80" cy="65" r="5" />
+
+        <line x1="50" y1="42" x2="50" y2="20" />
+        <line x1="43" y1="55" x2="25" y2="63" />
+        <line x1="57" y1="55" x2="75" y2="63" />
+
+      </svg>
+
+    </a>
+
+    <nav class="nav-links">
+
+      <a href="index.html#about">About</a>
+
+      <a href="index.html#research">Research</a>
+
+      <a href="index.html#resources">Resources</a>
+
+      <a href="index.html#publications">Publications</a>
+
+      <a href="index.html#contact">Contact</a>
+
+      <a href="sideprojects.html" class="active">Side Projects</a>
+
+    </nav>
+
+    <div class="header-actions">
+
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+          <circle cx="12" cy="12" r="5"></circle>
+
+          <path d="M12 1v2"></path>
+          <path d="M12 21v2"></path>
+          <path d="M4.22 4.22l1.42 1.42"></path>
+          <path d="M18.36 18.36l1.42 1.42"></path>
+          <path d="M1 12h2"></path>
+          <path d="M21 12h2"></path>
+          <path d="M4.22 19.78l1.42-1.42"></path>
+          <path d="M18.36 5.64l1.42-1.42"></path>
+
+        </svg>
+
+      </button>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+
+        ☰
+
+      </button>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- ================= INTRO ================= -->
+
+<section class="page-intro">
+
+  <div class="container">
+
+    <a href="index.html" class="back-link">← Back to home</a>
+
+    <span class="section-tag">
+      Showcase
+    </span>
+
+    <h1>
+      Side Projects
+    </h1>
+
+    <p class="section-intro">
+
+      A showcase of tools, resources, and learning material I have built alongside my research.
+      Each project is publicly available on GitHub.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ================= RESEARCH TOOLS ================= -->
+
+<section class="project-section">
+
+  <div class="container">
+
+    <span class="section-tag">
+      Research Tools
+    </span>
+
+    <h2>
+      Computational Toxicology
+    </h2>
+
+    <p class="section-intro">
+
+      Small, focused utilities and curated resources for cheminformatics and toxicology workflows.
+
+    </p>
+
+    <div class="research-grid">
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Python · Tool
+        </div>
+
+        <h3>
+          ecochemfetch
+        </h3>
+
+        <p>
+          A lightweight Python tool that fetches chemical identifiers, toxicology data, environmental fate
+          information, and mass spectra into CSV using free APIs.
+        </p>
+
+        <span class="research-method">
+          Chemistry · Toxicology · Cheminformatics · Environmental Science
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/ecochemfetch" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Python · CLI &amp; Library
+        </div>
+
+        <h3>
+          molplumber
+        </h3>
+
+        <p>
+          A small command-line tool and Python function for checking train/test leakage in molecular datasets.
+        </p>
+
+        <span class="research-method">
+          Machine Learning · Cheminformatics · Data Cleaning · Leakage Detection
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/molplumber" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Python · CLI Game
+        </div>
+
+        <h3>
+          path-of-adversity
+        </h3>
+
+        <p>
+          A fun and informative mechanistic toxicology arcade game for the command line, built around AOP-Wiki.
+        </p>
+
+        <span class="research-method">
+          Toxicology · AOP-Wiki · Biology Education · Chemistry Education
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/path-of-adversity" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Curated List
+        </div>
+
+        <h3>
+          awesome-computational-ecotoxicology
+        </h3>
+
+        <p>
+          A curated list of computational resources for ecotoxicology, including databases, datasets, software,
+          models, and APIs.
+        </p>
+
+        <span class="research-method">
+          Ecotoxicology · Risk Assessment · Computational Toxicology
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/awesome-computational-ecotoxicology"
+          target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= APPS & CATALOGS ================= -->
+
+<section class="project-section">
+
+  <div class="container">
+
+    <span class="section-tag">
+      Apps &amp; Catalogs
+    </span>
+
+    <h2>
+      Open Science, Reading &amp; Reference
+    </h2>
+
+    <p class="section-intro">
+
+      Web apps, catalogs, and utilities built for discovery and reference.
+
+    </p>
+
+    <div class="research-grid">
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          HTML · Web App
+        </div>
+
+        <h3>
+          StumbleScience
+        </h3>
+
+        <p>
+          A lightweight, StumbleUpon-style web randomizer for discovering open science.
+        </p>
+
+        <span class="research-method">
+          Open Science · Science Discovery
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/StumbleScience" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          JavaScript · Catalog
+        </div>
+
+        <h3>
+          OpenClimate
+        </h3>
+
+        <p>
+          A climate science and Earth systems catalog.
+        </p>
+
+        <span class="research-method">
+          Climate Science · Earth System Science · Dashboard
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/OpenClimate" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Reference · Course
+        </div>
+
+        <h3>
+          iel
+        </h3>
+
+        <p>
+          The Encyclopedia of Indian Endangered Languages: a reference catalog and introductory linguistics course
+          covering India's 42 critically endangered languages, indexed with ISO 639-3, Glottolog 5.0, and
+          Wikidata identifiers.
+        </p>
+
+        <span class="research-method">
+          Linguistics · Endangered Languages · Encyclopedia
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/iel" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Python · Desktop App
+        </div>
+
+        <h3>
+          gutenread
+        </h3>
+
+        <p>
+          A compact speed-reading app for Project Gutenberg books. It shows one word at a time with a highlighted
+          focus letter, with adjustable speed, themes, fonts, and text size. Built with Python and Tkinter, with no
+          dependencies.
+        </p>
+
+        <span class="research-method">
+          Speed Reading · Project Gutenberg · Tkinter
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/gutenread" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= COURSES ================= -->
+
+<section class="project-section">
+
+  <div class="container">
+
+    <span class="section-tag">
+      Courses
+    </span>
+
+    <h2>
+      Self-paced Courses
+    </h2>
+
+    <p class="section-intro">
+
+      Free learning material, each course in its own repository.
+
+    </p>
+
+    <div class="research-grid">
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Course
+        </div>
+
+        <h3>
+          intro-to-causality
+        </h3>
+
+        <p>
+          A free, self-paced curriculum covering modern causal inference.
+        </p>
+
+        <span class="research-method">
+          Causal Inference · Curriculum · Self-paced Learning
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/intro-to-causality" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Course
+        </div>
+
+        <h3>
+          unix-for-bio-course
+        </h3>
+
+        <p>
+          A free, self-paced introduction to the Unix command line for high-throughput biological data analysis
+          and bioinformatics.
+        </p>
+
+        <span class="research-method">
+          Unix · Bioinformatics · Command Line · Linux Shell
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/unix-for-bio-course" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Course
+        </div>
+
+        <h3>
+          regex-course
+        </h3>
+
+        <p>
+          A free, self-paced course on regular expressions for complete beginners.
+        </p>
+
+        <span class="research-method">
+          Regular Expressions · Self-paced Learning
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/regex-course" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Course
+        </div>
+
+        <h3>
+          re-course
+        </h3>
+
+        <p>
+          A free, self-paced course on reverse engineering for people who know Python but have no CS degree.
+        </p>
+
+        <span class="research-method">
+          Reverse Engineering · Self-paced Learning
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/re-course" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= EXPLORATIONS ================= -->
+
+<section class="project-section">
+
+  <div class="container">
+
+    <span class="section-tag">
+      Explorations
+    </span>
+
+    <h2>
+      Exploratory &amp; Numerical Work
+    </h2>
+
+    <p class="section-intro">
+
+      Exploratory analyses and numerical-methods code.
+
+    </p>
+
+    <div class="research-grid">
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Jupyter Notebook · Analysis
+        </div>
+
+        <h3>
+          exploratory-decision-model
+        </h3>
+
+        <p>
+          An exploratory evaluation of a zero-shot decision model for cardiovascular disease classification from
+          clinical profiles.
+        </p>
+
+        <span class="research-method">
+          Biological Data Analysis · Decision Model
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/exploratory-decision-model" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Fortran · Numerical Methods
+        </div>
+
+        <h3>
+          Computational-Physics
+        </h3>
+
+        <p>
+          A collection of numerical methods used in computational physics.
+        </p>
+
+        <span class="research-method">
+          Computational Physics · Numerical Methods
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/Computational-Physics" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+      <article class="research-card project-card">
+
+        <div class="research-mark">
+          Fortran · Programs
+        </div>
+
+        <h3>
+          Fortran_Programs
+        </h3>
+
+        <p>
+          A collection of basic programs written in Fortran 90/95.
+        </p>
+
+        <span class="research-method">
+          Fortran 90/95
+        </span>
+
+        <a class="project-link" href="https://github.com/mshreyes/Fortran_Programs" target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-github"></i> View on GitHub →
+        </a>
+
+      </article>
+
+    </div>
+
+    <div class="publication-links projects-more">
+
+      <a href="https://github.com/mshreyes" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+
+        View all on GitHub
+
+      </a>
+
+    </div>
+
+    <p class="disclaimer">
+
+      Disclaimer: these projects were conceptualized by me, and coding assistants were used to implement them.
+
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+  <div class="container footer-content">
+
+    <p>
+
+      © <span id="year"></span> Shreyes Madgaonkar
+
+    </p>
+
+    <p>
+
+      Built with HTML, CSS & JavaScript • Hosted on GitHub Pages
+
+    </p>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

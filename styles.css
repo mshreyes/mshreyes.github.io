@@ -1367,3 +1367,338 @@ color:var(--text);
     transform: scaleX(1);
 
 }
+
+
+
+/* ==========================================================
+   ANCHOR OFFSET (sticky header)
+   ========================================================== */
+
+section[id] {
+
+    scroll-margin-top: 78px;
+
+}
+
+
+
+/* ==========================================================
+   SUBTLE LINK TO SIDE PROJECTS (end of index)
+   ========================================================== */
+
+.sideprojects-link {
+
+    margin-top: 2.5rem;
+
+    text-align: center;
+
+    font-size: 13pt;
+
+    color: var(--text-muted);
+
+    opacity: .85;
+
+}
+
+.sideprojects-link a {
+
+    color: var(--text-muted);
+
+    border-bottom: 1px dotted var(--border);
+
+    transition: var(--transition);
+
+}
+
+.sideprojects-link a:hover {
+
+    color: var(--primary);
+
+    border-bottom-color: var(--primary);
+
+}
+
+
+
+/* ==========================================================
+   SIDE PROJECTS PAGE
+   ========================================================== */
+
+.page-intro {
+
+    padding: 5rem 0 1rem;
+
+}
+
+.page-intro h1 {
+
+    margin-bottom: .5rem;
+
+}
+
+.page-intro .section-intro {
+
+    margin-bottom: 0;
+
+}
+
+.back-link {
+
+    display: block;
+
+    width: fit-content;
+
+    margin-bottom: 2rem;
+
+    font-size: .9rem;
+
+    color: var(--text-muted);
+
+    transition: var(--transition);
+
+}
+
+.back-link:hover {
+
+    color: var(--primary);
+
+}
+
+.project-section {
+
+    padding: 3.5rem 0 1rem;
+
+}
+
+.project-section .section-intro {
+
+    margin-bottom: 2rem;
+
+}
+
+.project-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.project-card .research-method {
+
+    margin-top: 1.25rem;
+
+}
+
+.project-link {
+
+    align-self: flex-start;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: .45rem;
+
+    margin-top: auto;
+
+    padding-top: 1.5rem;
+
+    color: var(--primary);
+
+    font-size: .95rem;
+
+    font-weight: 600;
+
+}
+
+.project-link:hover {
+
+    text-decoration: underline;
+
+}
+
+.projects-more {
+
+    margin-top: 4rem;
+
+}
+
+.disclaimer {
+
+    max-width: 70ch;
+
+    margin: 4rem auto 0;
+
+    font-size: .78rem;
+
+    line-height: 1.6;
+
+    text-align: center;
+
+    color: var(--text-muted);
+
+    opacity: .8;
+
+}
+
+
+
+/* ==========================================================
+   MOBILE FIXES
+   The hero graphic was a fixed 600px box, which forced the whole
+   page to be ~614px wide on phones. These rules only apply at
+   <= 900px, so the desktop layout is unchanged.
+   ========================================================== */
+
+.mobile-nav-toggle {
+
+    color: var(--text);
+
+}
+
+@media (max-width:900px) {
+
+    .hero-grid > * {
+
+        min-width: 0;
+
+    }
+
+    .hero-graphic {
+
+        width: 100%;
+
+        max-width: 520px;
+
+        height: auto;
+
+        aspect-ratio: 1 / 1;
+
+        margin: 0 auto;
+
+    }
+
+    .nav-links.show {
+
+        gap: 1.25rem;
+
+        align-items: flex-start;
+
+    }
+
+    /* .research-grid is redefined further up the file with 2 columns,
+       which overrode the earlier single-column mobile rule */
+    .research-grid {
+
+        grid-template-columns: minmax(0, 1fr);
+
+    }
+
+    .research-card h3 {
+
+        overflow-wrap: anywhere;
+
+    }
+
+}
+
+@media (max-width:600px) {
+
+    h1 {
+
+        font-size: 2.6rem;
+
+    }
+
+    .section {
+
+        padding: 4rem 0;
+
+    }
+
+    .hero {
+
+        padding: 3rem 0 3rem;
+
+    }
+
+    .hero-grid {
+
+        gap: 2.5rem;
+
+    }
+
+    .section-intro {
+
+        margin-bottom: 2rem;
+
+    }
+
+    .research-grid,
+    .contact-grid {
+
+        gap: 1.25rem;
+
+    }
+
+    .research-card,
+    .contact-card {
+
+        padding: 1.5rem;
+
+    }
+
+    .resource-grid {
+
+        gap: 0;
+
+    }
+
+    .resource-card {
+
+        gap: .75rem;
+
+        padding: 1.75rem 0;
+
+    }
+
+    .publication-list {
+
+        gap: 2rem;
+
+    }
+
+    .sdg-strip {
+
+        padding: 1.4rem 1.25rem;
+
+    }
+
+    .sdg-icons {
+
+        gap: 1rem;
+
+    }
+
+    .sdg-icons img {
+
+        width: 48px;
+
+        height: 48px;
+
+    }
+
+    .page-intro {
+
+        padding: 3rem 0 .5rem;
+
+    }
+
+    .project-section {
+
+        padding: 2.5rem 0 .5rem;
+
+    }
+
+}

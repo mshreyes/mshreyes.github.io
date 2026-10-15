@@ -64,6 +64,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+    // close the menu once a link is tapped
+    nav.querySelectorAll("a").forEach(link => {
+
+      link.addEventListener("click", () => {
+
+        nav.classList.remove("show");
+
+      });
+
+    });
+
   }
 
   /* ==========================================
@@ -106,7 +117,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     {
 
-      threshold: .4
+      // a section counts as "active" while it crosses the middle of the
+      // viewport (a fixed .4 threshold never triggers for sections taller
+      // than ~2.5 screens, e.g. Publications on a phone)
+      rootMargin: "-45% 0px -50% 0px",
+
+      threshold: 0
 
     }
 
@@ -122,8 +138,17 @@ document.addEventListener("DOMContentLoaded", () => {
    HERO GRAPHIC
    ========================================================== */
 
+(function () {
+
 const canvas = document.getElementById("oneHealthCanvas");
+
+// other pages (e.g. sideprojects.html) have no hero canvas
+if (!canvas) return;
+
 const ctx = canvas.getContext("2d");
+
+// the graphic is drawn in a 600 x 600 coordinate space
+const BASE_SIZE = 600;
 
 function resizeCanvas() {
 
@@ -132,7 +157,11 @@ function resizeCanvas() {
   canvas.width = rect.width * window.devicePixelRatio;
   canvas.height = rect.height * window.devicePixelRatio;
 
-  ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+  // scale the 600 x 600 drawing to whatever size the canvas has
+  // (1:1 on desktop, smaller on phones)
+  const scale = (rect.width / BASE_SIZE) * window.devicePixelRatio;
+
+  ctx.setTransform(scale, 0, 0, scale, 0, 0);
 
 }
 
@@ -635,8 +664,8 @@ function animate() {
   ctx.clearRect(
     0,
     0,
-    canvas.width,
-    canvas.height
+    BASE_SIZE,
+    BASE_SIZE
   );
 
 
@@ -663,3 +692,5 @@ function animate() {
 
 
 animate();
+
+})();
